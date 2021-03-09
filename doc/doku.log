@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.7)  9 MAR 2021 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.7)  9 MAR 2021 11:49
 entering extended mode
 **./doku.tex
 (doku.tex
@@ -553,20 +553,20 @@ LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
 [2]
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 84.
+Package pdftex.def Info: its_logo.pdf  used on input line 85.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 84.
+(Font)              using `OT1/phv/m/sc' instead on input line 85.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 84.
+(Font)              using `OT1/phv/m/sc' instead on input line 85.
 
 [3]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-01.
+02.
  (C:\Users\narfm\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
@@ -575,21 +575,21 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (10.41698pt too wide) in paragraph at lines 89--104
+Overfull \hbox (10.41698pt too wide) in paragraph at lines 90--105
 [] 
  []
 
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 104.
+Package pdftex.def Info: its_logo.pdf  used on input line 105.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 104.
+(Font)              using `OT1/phv/m/sc' instead on input line 105.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 104.
+(Font)              using `OT1/phv/m/sc' instead on input line 105.
 
 [4]
 
@@ -598,51 +598,65 @@ ion <1.6>, but at most version <1.5> allowed
 <lastenheft.pdf, id=22, page=1, 597.53635pt x 845.04686pt>
 File: lastenheft.pdf Graphic file (type pdf)
 <use lastenheft.pdf, page 1>
-Package pdftex.def Info: lastenheft.pdf , page1 used on input line 108.
+Package pdftex.def Info: lastenheft.pdf , page1 used on input line 124.
 (pdftex.def)             Requested size: 432.19548pt x 611.21846pt.
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 109.
+Package pdftex.def Info: its_logo.pdf  used on input line 125.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 109.
+(Font)              using `OT1/phv/m/sc' instead on input line 125.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 109.
+(Font)              using `OT1/phv/m/sc' instead on input line 125.
 
-[5 <./lastenheft.pdf>]
+[5]
+File: its_logo.pdf Graphic file (type pdf)
+<use its_logo.pdf>
+Package pdftex.def Info: its_logo.pdf  used on input line 125.
+(pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 125.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 125.
+
+[6 <./lastenheft.pdf>]
 
 pdfTeX warning: pdflatex (file ./lastenheft.pdf): PDF inclusion: found PDF vers
 ion <1.6>, but at most version <1.5> allowed
-<lastenheft.pdf, id=44, page=2, 597.53635pt x 845.04686pt>
+<lastenheft.pdf, id=48, page=2, 597.53635pt x 845.04686pt>
 File: lastenheft.pdf Graphic file (type pdf)
 <use lastenheft.pdf, page 2>
-Package pdftex.def Info: lastenheft.pdf , page2 used on input line 110.
+Package pdftex.def Info: lastenheft.pdf , page2 used on input line 126.
 (pdftex.def)             Requested size: 432.19548pt x 611.21846pt.
 
-Overfull \hbox (8.80257pt too wide) in paragraph at lines 110--111
+Overfull \hbox (8.80257pt too wide) in paragraph at lines 126--127
 [][] 
  []
 
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 111.
+Package pdftex.def Info: its_logo.pdf  used on input line 130.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 111.
+(Font)              using `OT1/phv/m/sc' instead on input line 130.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 111.
+(Font)              using `OT1/phv/m/sc' instead on input line 130.
 
-[6 <./lastenheft.pdf>] (doku.aux) ) 
+[7 <./lastenheft.pdf>] (doku.aux) ) 
 Here is how much of TeX's memory you used:
  8041 strings out of 479408
- 147062 string characters out of 2867916
- 522721 words of memory out of 3000000
+ 147092 string characters out of 2867916
+ 522902 words of memory out of 3000000
  25167 multiletter control sequences out of 15000+200000
  431083 words of font info for 144 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -650,9 +664,9 @@ Here is how much of TeX's memory you used:
 {C:/Program Files/MiKTeX/fonts/enc/dvips/bas
 e/8r.enc}<C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Progr
 am Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
-Output written on doku.pdf (7 pages, 175479 bytes).
+Output written on doku.pdf (8 pages, 177768 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
+ 79 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  53264 words of extra memory for PDF output out of 61914 (max. 10000000)
 

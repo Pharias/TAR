@@ -5,5 +5,7 @@
 \contentsline {subsection}{\numberline {1.4}Zusatzinformationen}{3}{}%
 \contentsline {section}{\numberline {2}Quellen}{4}{}%
 \contentsline {subsection}{\numberline {2.1}Verwendete Software}{4}{}%
-\contentsline {section}{\numberline {3}Anhang}{5}{}%
-\contentsline {subsection}{\numberline {3.1}Lastenheft}{5}{}%
+\contentsline {subsection}{\numberline {2.2}Verwendete Hardware}{5}{}%
+\contentsline {section}{\numberline {3}Anhang}{6}{}%
+\contentsline {subsection}{\numberline {3.1}Lastenheft}{6}{}%
+\contentsline {subsection}{\numberline {3.2}Hardware-Dokumentationen}{7}{}%
