@@ -10,6 +10,8 @@
 \usepackage[headsepline,footsepline]{scrlayer-scrpage}
 \usepackage{microtype}
 \usepackage{pdfpages}
+\usepackage[hyphens]{url}
+\usepackage[colorlinks=true,urlcolor=blue,linkcolor=black]{hyperref}
 \hyphenpenalty=9999
 \exhyphenpenalty=9999
 \setheadsepline{.5pt}
@@ -102,7 +104,6 @@
  	• & • & • \\ 
  	\hline 
  	\end{tabular} 
- 	\newpage
  	\subsection{Verwendete Hardware}
  	\begin{tabular}{|l|l|l|}
  	\hline
@@ -124,7 +125,13 @@
  	\includegraphics[width=0.98\textwidth, page=1]{lastenheft.pdf}
  	\newpage
  	\includegraphics[width=0.98\textwidth, page=2]{lastenheft.pdf}
+ 	\newpage
  	\subsection{Hardware-Dokumentationen}
- 	Durch den Umfang der einzelnen Dokumentationen hier nur eine Auflistung der Dokumentationen mit dem Link im GIT-Projekt.
- 	
+ 	Durch den Umfang der einzelnen Dokumentationen hier nur eine Auflistung der Dokumentationen mit dem Link zu den PDF im GIT-Projekt bzw. den Herstellerseiten.
+ 	\begin{itemize}
+ 		\item Raspberry Pi:\\ {\url{https://www.raspberrypi.org/documentation/hardware/raspberrypi/bcm2711/rpi_DATA_2711_1p0.pdf}}
+ 		\item MiFare MFRC522:\\ {\url{https://www.nxp.com/docs/en/data-sheet/MFRC522.pdf}}
+ 		\item CC2531 ZigBee SoC:\\ {\url{https://www.ti.com/lit/ds/symlink/cc2531.pdf}}
+ 		\item ATmega128RFA1-ZU:\\ {\url{https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8266-MCU_Wireless-ATmega128RFA1_Datasheet.pdf}}
+ 	\end{itemize}
 \end{document}
