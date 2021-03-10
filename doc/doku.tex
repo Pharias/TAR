@@ -12,6 +12,7 @@
 \usepackage{pdfpages}
 \usepackage{color}
 \usepackage[hyphens]{url}
+\usepackage{lastpage}
 \usepackage[colorlinks=true,urlcolor=blue,linkcolor=black]{hyperref}
 \hyphenpenalty=9999
 \exhyphenpenalty=9999
@@ -33,9 +34,8 @@
 % Fußzeile
 \ifoot{\textsc{FTI2 2020/2021}}
 \cfoot{}
-\ofoot{\pagemark}
+\ofoot{\textsc{Seite \pagemark\:von \pageref{LastPage}}} % Achtung, Muss 2 mal comilieren, sonst Fehler^^
 \date{-}
-\definecolor{quoteframe}{rgb}{.7,.7,.7}
 \definecolor{quotetext}{rgb}{.35,.35,.35} %{1,.64,0}
 \begin{document}
 	% Titelseite. Basierend auf https://de.wikibooks.org/wiki/LaTeX/_Eine_Titelseite_erstellen
@@ -93,21 +93,21 @@
  		\begin{minipage}[t]{0.3\linewidth}
  			\centering
  			\includegraphics[width=0.7\textwidth]{alexa_echo_show8.jpg}
- 			\caption{Amazon Alexa Echo Show 8}
+ 			\caption[1]{Amazon Alexa Echo Show 8}
  			\label{fig:alexa-echo-show8}
  		\end{minipage}
  		\hfill
  		\begin{minipage}[t]{0.3\linewidth}
  			\centering
  			\includegraphics[width=0.7\textwidth]{google_nest_hub.png}
- 			\caption{Google Nest Hub}
+ 			\caption[2]{Google Nest Hub}
  			\label{fig:google-nest-hub}
  		\end{minipage}
  		\hfill
  		\begin{minipage}[t]{0.3\linewidth}
  			\centering
  			\includegraphics[width=0.7\textwidth]{glancr_smart_mirror.jpeg}
- 			\caption{Glancr Smart Mirror}
+ 			\caption[3]{Glancr Smart Mirror}
  			\label{fig:glancr-smart-mirror}
  		\end{minipage}
  	\end{figure}
@@ -118,7 +118,29 @@
  		Bei einem Smart-Home-Hub handelt es sich um eine schlaue Zentrale, durch die all deine intelligenten Geräte miteinander vernetzt werden – und dadurch erst wirklich ihren gesamten Leistungsumfang ausschöpfen.\footnote{Li (2017): Was ist ein Smart-Home-Hub? Alles über die intelligente Zentrale}
  	\end{quote}
  	\newpage
-	% Hier den Rest eintragen... 	
+	% Hier den Rest eintragen...
+	% Folgend erst mal der allgemeine Aufbau nach dem einen Beispiel, das ich in Telegram geteilt hab...
+	\section{Zielsetzung}
+	\subsection{Konzeption}
+	\subsection{Anforderungen und gewünschte Features}
+	\section{Herangehensweise}
+	\subsection{Hardware}
+	\subsection{Software}
+	\section{Zeitplan}
+	\section{Komplettübersicht}
+	\section{Hardware}
+	\subsection{Raspberry Pi 4}
+	\subsection{Aufbau des Prototypen}
+	\subsection{Erstellung des RPi-HATs}
+	\subsection{Gehäuse}
+	\section{Software}
+	\subsection{Überblick}
+	\subsection{MQTT-Broker}
+	\subsection{HomeAssistant}
+	\subsection{MyCroft}
+	\subsection{HAT-Programm}
+	\section{Epilog \& Fazit}
+	\newpage	
  	\section{Quellen}
  	% Quellen auflisten
  	\subsection{Dokumentationsquellen}
@@ -174,4 +196,6 @@
  		\item CC2531 ZigBee SoC:\\ {\url{https://www.ti.com/lit/ds/symlink/cc2531.pdf}}
  		\item ATmega128RFA1-ZU:\\ {\url{https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8266-MCU_Wireless-ATmega128RFA1_Datasheet.pdf}}
  	\end{itemize}
+ 	\newpage
+ 	\listoffigures
 \end{document}

@@ -4,10 +4,30 @@
 \contentsline {subsection}{\numberline {1.3}Aufgabenstellung}{3}{subsection.1.3}%
 \contentsline {subsection}{\numberline {1.4}Zusatzinformationen}{3}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Definition Smart Home Zentrale}{4}{subsection.1.5}%
-\contentsline {section}{\numberline {2}Quellen}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Dokumentationsquellen}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Verwendete Software}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Verwendete Hardware}{5}{subsection.2.3}%
-\contentsline {section}{\numberline {3}Anhang}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Lastenheft}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Hardware-Dokumentationen}{8}{subsection.3.2}%
+\contentsline {section}{\numberline {2}Zielsetzung}{5}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Konzeption}{5}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Anforderungen und gewünschte Features}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Herangehensweise}{5}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Hardware}{5}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Software}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Zeitplan}{5}{section.4}%
+\contentsline {section}{\numberline {5}Komplettübersicht}{5}{section.5}%
+\contentsline {section}{\numberline {6}Hardware}{5}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Raspberry Pi 4}{5}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Aufbau des Prototypen}{5}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Erstellung des RPi-HATs}{5}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Gehäuse}{5}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Software}{5}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Überblick}{5}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}MQTT-Broker}{5}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}HomeAssistant}{5}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}MyCroft}{5}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}HAT-Programm}{5}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Epilog \& Fazit}{5}{section.8}%
+\contentsline {section}{\numberline {9}Quellen}{6}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Dokumentationsquellen}{6}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Verwendete Software}{6}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Verwendete Hardware}{6}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Anhang}{7}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Lastenheft}{7}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Hardware-Dokumentationen}{9}{subsection.10.2}%
