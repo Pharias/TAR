@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.7)  9 MAR 2021 15:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.7)  10 MAR 2021 13:02
 entering extended mode
 **./doku.tex
 (doku.tex
@@ -477,7 +477,7 @@ Package scrlayer-scrpage Warning: Command deprecated!
 (scrlayer-scrpage)                `<line thickness>:<line length>' to setup
 (scrlayer-scrpage)                the line length and thickness, and
 (scrlayer-scrpage)                `\setkomafont' or `\addtokomafont' to
-(scrlayer-scrpage)                setup the colour on input line 17.
+(scrlayer-scrpage)                setup the colour on input line 18.
 
 
 Package scrlayer-scrpage Warning: Command deprecated!
@@ -491,24 +491,24 @@ Package scrlayer-scrpage Warning: Command deprecated!
 (scrlayer-scrpage)                `<line thickness>:<line length>' to setup
 (scrlayer-scrpage)                the line length and thickness, and
 (scrlayer-scrpage)                `\setkomafont' or `\addtokomafont' to
-(scrlayer-scrpage)                setup the colour on input line 18.
+(scrlayer-scrpage)                setup the colour on input line 19.
 
 
 Package scrlayer-scrpage Warning: replacing deprecated \clearscrheadfoot by
-(scrlayer-scrpage)                \clearpairofpagestyles on input line 21.
+(scrlayer-scrpage)                \clearpairofpagestyles on input line 22.
 
 
 Package scrlayer-scrpage Warning: replacing deprecated \clearscrheading by
-(scrlayer-scrpage)                \clearmainofpairofpagestyles on input line 22
+(scrlayer-scrpage)                \clearmainofpairofpagestyles on input line 23
 .
 
 
 Package scrlayer-scrpage Warning: replacing deprecated \clearscrplain by
 (scrlayer-scrpage)                \clearplainofpairofpagestyles on input line 2
-3.
+4.
 
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 3
-7.
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 4
+0.
 (C:\Users\narfm\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 )
@@ -519,24 +519,24 @@ File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 ) (doku.aux)
 \openout1 = `doku.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 37.
-LaTeX Font Info:    ... okay on input line 37.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
+LaTeX Font Info:    ... okay on input line 40.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -591,15 +591,15 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package scrlayer Info: Setting magic \footheight to \baselineskip while
-(scrlayer)             \begin{document} on input line 37.
-LaTeX Info: Redefining \microtypecontext on input line 37.
+(scrlayer)             \begin{document} on input line 40.
+LaTeX Info: Redefining \microtypecontext on input line 40.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 37.
+LaTeX Info: Redefining \showhyphens on input line 40.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -615,7 +615,7 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring ON on input line 37.
+Package hyperref Info: Link coloring ON on input line 40.
 
 (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -629,17 +629,17 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count293
 )
-LaTeX Info: Redefining \ref on input line 37.
-LaTeX Info: Redefining \pageref on input line 37.
-LaTeX Info: Redefining \nameref on input line 37.
+LaTeX Info: Redefining \ref on input line 40.
+LaTeX Info: Redefining \pageref on input line 40.
+LaTeX Info: Redefining \nameref on input line 40.
  (doku.out) (doku.out)
 \@outlinefile=\write3
 \openout3 = `doku.out'.
 
-<its_logo.pdf, id=47, 127.75229pt x 58.79466pt>
+<its_logo.pdf, id=55, 127.75229pt x 58.79466pt>
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 41.
+Package pdftex.def Info: its_logo.pdf  used on input line 44.
 (pdftex.def)             Requested size: 220.50887pt x 101.48457pt.
  [1
 
@@ -670,12 +670,12 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 60.
+Package pdftex.def Info: its_logo.pdf  used on input line 63.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 60.
+(Font)              using `OT1/phv/m/sc' instead on input line 63.
 
 
 Package scrlayer-scrpage Warning: \headheight to low.
@@ -686,7 +686,7 @@ Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=44.94261pt'.
 (scrlayer-scrpage)                I'll also decrease \topmargin on input line 6
-0.
+3.
 
 
 Overfull \vbox (24.94261pt too high) has occurred while \output is active []
@@ -694,44 +694,83 @@ Overfull \vbox (24.94261pt too high) has occurred while \output is active []
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 60.
+(Font)              using `OT1/phv/m/sc' instead on input line 63.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.60 	\newpage
+l.63 	\newpage
                [1]
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 71.
+Package pdftex.def Info: its_logo.pdf  used on input line 74.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 71.
+(Font)              using `OT1/phv/m/sc' instead on input line 74.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 71.
+(Font)              using `OT1/phv/m/sc' instead on input line 74.
 
 [2]
+<alexa_echo_show8.jpg, id=87, 1505.625pt x 1005.7575pt>
+File: alexa_echo_show8.jpg Graphic file (type jpg)
+<use alexa_echo_show8.jpg>
+Package pdftex.def Info: alexa_echo_show8.jpg  used on input line 95.
+(pdftex.def)             Requested size: 92.61424pt x 61.86215pt.
+
+Underfull \hbox (badness 7486) in paragraph at lines 96--96
+[]\OT1/phv/m/n/12 (+20) Abbildung 1: []Amazon
+ []
+
+<google_nest_hub.png, id=88, 963.6pt x 471.7625pt>
+File: google_nest_hub.png Graphic file (type png)
+<use google_nest_hub.png>
+Package pdftex.def Info: google_nest_hub.png  used on input line 102.
+(pdftex.def)             Requested size: 92.61424pt x 45.33618pt.
+<glancr_smart_mirror.jpeg, id=89, 1084.05pt x 1084.05pt>
+File: glancr_smart_mirror.jpeg Graphic file (type jpg)
+<use glancr_smart_mirror.jpeg>
+Package pdftex.def Info: glancr_smart_mirror.jpeg  used on input line 109.
+(pdftex.def)             Requested size: 92.61424pt x 92.59792pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--110
+[]\OT1/phv/m/n/12 (+20) Abbildung 3: []Glancr
+ []
+
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 87.
+Package pdftex.def Info: its_logo.pdf  used on input line 113.
+(pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 113.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 113.
+
+[3]
+File: its_logo.pdf Graphic file (type pdf)
+<use its_logo.pdf>
+Package pdftex.def Info: its_logo.pdf  used on input line 120.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 87.
+(Font)              using `OT1/phv/m/sc' instead on input line 120.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 87.
+(Font)              using `OT1/phv/m/sc' instead on input line 120.
 
-[3]
+[4 <./alexa_echo_show8.jpg> <./google_nest_hub.png> <./glancr_smart_mirror.jpeg
+>]
 LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-04.
+27.
  (C:\Users\narfm\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
@@ -739,8 +778,18 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: OT1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
 
-Overfull \hbox (10.41698pt too wide) in paragraph at lines 92--107
+Overfull \hbox (14.34467pt too wide) in paragraph at lines 127--128
+[][]$\OT1/cmtt/m/n/12 https : / / www . otto . de / updated / ratgeber / erklae
+rt -[] was -[] ist -[] ein -[] smart -[] home -[]
+ []
+
+
+Overfull \hbox (13.88467pt too wide) in paragraph at lines 130--147
 [] 
  []
 
@@ -748,111 +797,106 @@ Overfull \hbox (10.41698pt too wide) in paragraph at lines 92--107
 
 pdfTeX warning: pdflatex (file ./lastenheft.pdf): PDF inclusion: found PDF vers
 ion <1.6>, but at most version <1.5> allowed
-<lastenheft.pdf, id=81, page=1, 597.53635pt x 845.04686pt>
+<lastenheft.pdf, id=105, page=1, 597.53635pt x 845.04686pt>
 File: lastenheft.pdf Graphic file (type pdf)
 <use lastenheft.pdf, page 1>
-Package pdftex.def Info: lastenheft.pdf , page1 used on input line 125.
+Package pdftex.def Info: lastenheft.pdf , page1 used on input line 165.
 (pdftex.def)             Requested size: 432.19548pt x 611.21846pt.
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 126.
+Package pdftex.def Info: its_logo.pdf  used on input line 166.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 126.
+(Font)              using `OT1/phv/m/sc' instead on input line 166.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 126.
+(Font)              using `OT1/phv/m/sc' instead on input line 166.
 
-[4]
+[5]
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 126.
+Package pdftex.def Info: its_logo.pdf  used on input line 166.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 126.
+(Font)              using `OT1/phv/m/sc' instead on input line 166.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 126.
+(Font)              using `OT1/phv/m/sc' instead on input line 166.
 
-[5 <./lastenheft.pdf>]
+[6 <./lastenheft.pdf>]
 
 pdfTeX warning: pdflatex (file ./lastenheft.pdf): PDF inclusion: found PDF vers
 ion <1.6>, but at most version <1.5> allowed
-<lastenheft.pdf, id=108, page=2, 597.53635pt x 845.04686pt>
+<lastenheft.pdf, id=135, page=2, 597.53635pt x 845.04686pt>
 File: lastenheft.pdf Graphic file (type pdf)
 <use lastenheft.pdf, page 2>
-Package pdftex.def Info: lastenheft.pdf , page2 used on input line 127.
+Package pdftex.def Info: lastenheft.pdf , page2 used on input line 167.
 (pdftex.def)             Requested size: 432.19548pt x 611.21846pt.
 
-Overfull \hbox (8.80257pt too wide) in paragraph at lines 127--128
+Overfull \hbox (8.80257pt too wide) in paragraph at lines 167--168
 [][] 
  []
 
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 128.
+Package pdftex.def Info: its_logo.pdf  used on input line 168.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 128.
+(Font)              using `OT1/phv/m/sc' instead on input line 168.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 128.
+(Font)              using `OT1/phv/m/sc' instead on input line 168.
 
-[6 <./lastenheft.pdf>]
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `cmtt' (encoding: OT1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-
-Overfull \hbox (25.54718pt too wide) in paragraph at lines 132--133
+[7 <./lastenheft.pdf>]
+Overfull \hbox (25.54718pt too wide) in paragraph at lines 172--173
 [][]$\OT1/cmtt/m/n/12 https : / / www . raspberrypi . org / documentation / har
 dware / raspberrypi / bcm2711 /
  []
 
 
-Overfull \hbox (37.54468pt too wide) in paragraph at lines 135--136
+Overfull \hbox (37.54468pt too wide) in paragraph at lines 175--176
 [][]$\OT1/cmtt/m/n/12 https : / / ww1 . microchip . com / downloads / en / Devi
 ceDoc / Atmel -[] 8266 -[] MCU _ Wireless -[]
  []
 
 File: its_logo.pdf Graphic file (type pdf)
 <use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 137.
+Package pdftex.def Info: its_logo.pdf  used on input line 177.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 137.
+(Font)              using `OT1/phv/m/sc' instead on input line 177.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 137.
+(Font)              using `OT1/phv/m/sc' instead on input line 177.
 
-[7] (doku.aux)
+[8] (doku.aux)
 Package rerunfilecheck Info: File `doku.out' has not changed.
-(rerunfilecheck)             Checksum: 41E60A9E8A4BDE6152D1CB254F2AB1D9;1343.
+(rerunfilecheck)             Checksum: 6C763B8025F5BCDCCAFC893B13E24A12;1723.
  ) 
 Here is how much of TeX's memory you used:
- 14459 strings out of 479408
- 242858 string characters out of 2867916
- 625236 words of memory out of 3000000
- 31457 multiletter control sequences out of 15000+200000
- 431252 words of font info for 145 fonts, out of 3000000 for 9000
+ 14571 strings out of 479408
+ 244479 string characters out of 2867916
+ 629895 words of memory out of 3000000
+ 31512 multiletter control sequences out of 15000+200000
+ 439299 words of font info for 179 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 126i,23n,130p,416b,516s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 126i,23n,130p,416b,542s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1
 /urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr
 8a.pfb>
-Output written on doku.pdf (8 pages, 197764 bytes).
+Output written on doku.pdf (9 pages, 5521340 bytes).
 PDF statistics:
- 162 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 53864 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 188 PDF objects out of 1000 (max. 8388607)
+ 28 named destinations out of 1000 (max. 500000)
+ 72327 words of extra memory for PDF output out of 74296 (max. 10000000)
 
