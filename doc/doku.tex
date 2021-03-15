@@ -93,21 +93,21 @@
  		\begin{minipage}[t]{0.3\linewidth}
  			\centering
  			\includegraphics[width=0.7\textwidth]{alexa_echo_show8.jpg}
- 			\caption[1]{Amazon Alexa Echo Show 8}
+ 			\caption[Amazon Alexa Echo Show 8]{Amazon Alexa Echo Show 8}
  			\label{fig:alexa-echo-show8}
  		\end{minipage}
  		\hfill
  		\begin{minipage}[t]{0.3\linewidth}
  			\centering
  			\includegraphics[width=0.7\textwidth]{google_nest_hub.png}
- 			\caption[2]{Google Nest Hub}
+ 			\caption[Google Nest Hub]{Google Nest Hub}
  			\label{fig:google-nest-hub}
  		\end{minipage}
  		\hfill
  		\begin{minipage}[t]{0.3\linewidth}
  			\centering
  			\includegraphics[width=0.7\textwidth]{glancr_smart_mirror.jpeg}
- 			\caption[3]{Glancr Smart Mirror}
+ 			\caption[Glancr Smart Mirror]{Glancr Smart Mirror}
  			\label{fig:glancr-smart-mirror}
  		\end{minipage}
  	\end{figure}
@@ -117,22 +117,61 @@
  	\color{quotetext}
  		Bei einem Smart-Home-Hub handelt es sich um eine schlaue Zentrale, durch die all deine intelligenten Geräte miteinander vernetzt werden – und dadurch erst wirklich ihren gesamten Leistungsumfang ausschöpfen.\footnote{Li (2017): Was ist ein Smart-Home-Hub? Alles über die intelligente Zentrale}
  	\end{quote}
+ 	
  	\newpage
 	% Hier den Rest eintragen...
 	% Folgend erst mal der allgemeine Aufbau nach dem einen Beispiel, das ich in Telegram geteilt hab...
 	\section{Zielsetzung}
+	Als Ziel für das Projekt war ein funktionsfähiges Smart Home Hub mit Zigbee-Anbindung auf Basis eines Raspberry Pi 4 geplant. Im Laufe des Projekts kam dann noch eine Erweiterungskarte für den Raspberry Pi, ein sog. Raspberry Pi HAT, hinzu, welcher aber aufgrund der vorliegenden Lage mit der COVID-19-Pandemie und den damit verbundenen Liefer- und Zollschwierigkeiten verworfen wurde. Die Planung des HAT ist daher nur rudimentär und nicht vollständig, kann aber bei Bedarf nach Beenden des Projekts durchgeführt werden. Das Smart Home Hub in seiner Grundfunktion soll in der Lage sein, die mit ihm verbundenen Geräte über den Zigbee-Standard anzusteuern. Darüber sollte die Möglichkeit einer Erweiterung mit einem Sprachassistenten gegeben sein.\par
 	\subsection{Konzeption}
+	Zu Beginn des Projekts haben wir uns gemeinsam auf Nachforschung begeben und uns bereits vorhandene Open-Source-Lösungen im Bereich Smart Home angeschaut. Dabei sind wir neben dem Smart Mirror GLANCR auch auf die Gesamtlösung homeassistant.io sowie openHAB gestoßen. Darauf hin haben wir ein Grundkonzept in unserem Lastenheft zusammengefasst und dieses in Absprache mit unserem Betreuungslehrer, Herr Kohler, ausgearbeitet.\par
+	Nach Abgabe des Lastenhefts haben wir uns dann an die Beschaffung der unserer Meinung nach nötigen Komponenten für das Projekt gemacht.
 	\subsection{Anforderungen und gewünschte Features}
+	Die Anforderungen an das Projekt lauteten demnach wie folgt:
+	\begin{itemize}
+		\item Anbindung von ZigBee-fähigen Endgeräten
+		\item Steuerung der angebundenen Endgeräte
+		\item Übermittlung der Zustände der angebundenen Geräte an z.B. ein Smartphone
+	\end{itemize}
+	Diese Anforderungen lassen sich mit einem Raspberry Pi und einem Zigbee-USB-Stick realisieren. Darüber hinaus waren von unserer Seite noch folgende Features gewünscht:
+	\begin{itemize}
+		\item Ein- und Ausgabe über einen Touch-Bildschirm
+		\item Einbindung eines Sprachassistenten zur Steuerung der eingebundenen Endgeräte
+	\end{itemize}
+	Nach Fortschritt des Projekts kam bei einer Rücksprache mit unserem Projektbetreuer die Idee auf, einen Raspberry Pi Hat speziell für das Projekt zu entwickeln. Dieser sollte die Hardware des Projekts falls möglich auf einer Platine vereinen, die dann auf den Raspberry Pi aufgesteckt werden konnte.\par
+	Diese Erweiterungsplatine sollte folgende Eigenschaften besitzen:
+	\begin{itemize}
+		\item ZigBee-Controller und Antenne
+		\item NFC-Controller und Antenne
+		\item RGB-LED zur Statusanzeige
+		\item Anschluss für Lüfter
+		\item Sensoren für:
+		\begin{itemize}
+			 \item Luftfeuchtigkeit
+			 \item Temperatur
+			 \item Luftdruck
+		\end{itemize}
+		\item Pins zum Anschluss an Versuchsaufbau für Laborgebrauch
+	\end{itemize}
+	Die Erweiterungsplatine wurde aber wie zuvor aufgrund der aktuellen Pandemie-Situation und den damit verbundenen Beschaffungsschwierigkeiten verworfen.
+	Darauf wurde dann klar, dass eine Erstellung eines Installationsskripts für den Raspberry Pi eine sinnvolle Ergänzung der Projektarbeit wäre. Zusätzlich haben wir ein Gehäuse für die Hardware geplant, um das Endprodukt so wertiger gestalten zu können.
+	\newpage
 	\section{Herangehensweise}
+	Nach Festlegung der Anforderungen haben wir uns dann mit der Beschaffung und der Einrichtung der benötigten Materialien gemacht. Hierfür haben wir zum Teil bereits vorhandene Hardware, z.B. den Raspberry Pi 4 mit weiteren Komponenten wie dem Touch-Bildschirm und den Lautsprechern sowie dem Mikrofon ergänzt.
 	\subsection{Hardware}
 	\subsection{Software}
 	\section{Zeitplan}
+		\begin{figure}[htb]
+			\includegraphics[width=0.9\textwidth]{TAR_FKMS_20202021.png}
+			\caption[gantt-Diagramm des Projektablaufs]{gantt-Diagramm des Projektablaufs}
+ 			\label{fig:gantt-diagramm}
+ 		\end{figure}
 	\section{Komplettübersicht}
 	\section{Hardware}
 	\subsection{Raspberry Pi 4}
 	\subsection{Aufbau des Prototypen}
-	\subsection{Erstellung des RPi-HATs}
 	\subsection{Gehäuse}
+	\subsection{Erstellung des RPi-HATs}
 	\section{Software}
 	\subsection{Überblick}
 	\subsection{MQTT-Broker}
@@ -164,6 +203,8 @@
  	Fusion360 & Erstellung von Gehäusemodell & 2.0.9849 \\ 
  	\hline
  	CURA & Erstellung von G-Code für 3D-Drucker & 4.7 \\ 
+ 	\hline
+ 	GanttProject & Erstellung von Gantt-Diagrammen & 3.0.3 \\ 
  	\hline
  	\end{tabular} 
  	\subsection{Verwendete Hardware}
