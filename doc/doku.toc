@@ -11,23 +11,23 @@
 \contentsline {subsection}{\numberline {3.1}Hardware}{7}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Software}{7}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Zeitplan}{7}{section.4}%
-\contentsline {section}{\numberline {5}Komplettübersicht}{8}{section.5}%
-\contentsline {section}{\numberline {6}Hardware}{8}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Raspberry Pi 4}{8}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Aufbau des Prototypen}{8}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Gehäuse}{8}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{8}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Software}{8}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Überblick}{8}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}MQTT-Broker}{8}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}HomeAssistant}{8}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}MyCroft}{8}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}HAT-Programm}{8}{subsection.7.5}%
-\contentsline {section}{\numberline {8}Epilog \& Fazit}{8}{section.8}%
-\contentsline {section}{\numberline {9}Quellen}{9}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Dokumentationsquellen}{9}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Verwendete Software}{9}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Verwendete Hardware}{9}{subsection.9.3}%
-\contentsline {section}{\numberline {10}Anhang}{10}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Lastenheft}{10}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Hardware-Dokumentationen}{12}{subsection.10.2}%
+\contentsline {section}{\numberline {5}Komplettübersicht}{7}{section.5}%
+\contentsline {section}{\numberline {6}Hardware}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Raspberry Pi 4}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Aufbau des Prototypen}{7}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Gehäuse}{7}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{10}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Software}{10}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Überblick}{10}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}MQTT-Broker}{10}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}HomeAssistant}{10}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}MyCroft}{10}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}HAT-Programm}{10}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Epilog \& Fazit}{10}{section.8}%
+\contentsline {section}{\numberline {9}Quellen}{11}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Dokumentationsquellen}{11}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Verwendete Software}{11}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Verwendete Hardware}{11}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Anhang}{12}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Lastenheft}{12}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Hardware-Dokumentationen}{14}{subsection.10.2}%

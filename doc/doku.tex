@@ -117,7 +117,31 @@
  	\color{quotetext}
  		Bei einem Smart-Home-Hub handelt es sich um eine schlaue Zentrale, durch die all deine intelligenten Geräte miteinander vernetzt werden – und dadurch erst wirklich ihren gesamten Leistungsumfang ausschöpfen.\footnote{Li (2017): Was ist ein Smart-Home-Hub? Alles über die intelligente Zentrale}
  	\end{quote}
- 	
+Als Smart Home Zentrale können auch Software-Lösungen gezählt werden, die mit den im Netz befindlichen Smart Hubs kommunizieren und die Informationen mit Hilfe eines Web-Interfaces oder einer Smartphone-Anbindung darstellen und steuern können. Beispiele hierfür sind homeassistant.io, openHAB und Google Home.\par
+	% Sollte eigentlich die 3 Logos darstellen wie die Geräte darüber. Macht er aber nit... 	
+% 	\begin{figure}[htb]
+%		\centering
+% 		\begin{minipage}[t]{0.3\linewidth}
+% 			\centering
+% 			\includegraphics[width=0.7\textwidth]{home-assistant-io_logo.png}
+% 			\caption[Home Assistant Logo]{Home Assistant}
+% 			\label{fig:hassio}
+% 		\end{minipage}
+% 		\hfill
+% 		\begin{minipage}[t]{0.3\linewidth}
+% 			\centering
+% 			\includegraphics[width=0.7\textwidth]{openhab_logo.png}
+% 			\caption[openHAB Logo]{openHAB}
+% 			\label{fig:openhab}
+% 		\end{minipage}
+% 		\hfill
+% 		\begin{minipage}[t]{0.3\linewidth}
+% 			\centering
+% 			\includegraphics[width=0.7\textwidth]{google-cast_logo.png}
+% 			\caption[Google Home Logo]{Google Home}
+% 			\label{fig:googlehome}
+% 		\end{minipage}
+% 	\end{figure}
  	\newpage
 	% Hier den Rest eintragen...
 	% Folgend erst mal der allgemeine Aufbau nach dem einen Beispiel, das ich in Telegram geteilt hab...
@@ -162,7 +186,7 @@
 	\subsection{Software}
 	\section{Zeitplan}
 		\begin{figure}[htb]
-			\includegraphics[width=0.9\textwidth]{TAR_FKMS_20202021.png}
+			\includegraphics[width=1\textwidth]{TAR_FKMS_20202021.png}
 			\caption[gantt-Diagramm des Projektablaufs]{gantt-Diagramm des Projektablaufs}
  			\label{fig:gantt-diagramm}
  		\end{figure}
@@ -171,6 +195,37 @@
 	\subsection{Raspberry Pi 4}
 	\subsection{Aufbau des Prototypen}
 	\subsection{Gehäuse}
+	Zur Erstellung des Gehäuses haben wir die Maße des Bildschirms als Anhaltspunkt genommen. Das Gehäuse befand sich zu diesem Zeitpunkt bei Felix Kuschel, der die Messungen vornahm. Der Bildschirm hatte an der Hinterseite eine Erhebung, weshalb er diese ebenfalls ausgemessen hatte. Die Maße beliefen sich dann auf:
+	\begin{itemize}
+		\item 255,5 mm Breite
+		\item 167 mm Höhe
+		\item Kantenradius 10 mm
+	\end{itemize}
+	Die Maße an der Rückseite übermittelte er Manuel Starz als Bild:
+	\begin{figure}
+		\includegraphics[width=1\textwidth]{abmessungen_gehäuse.jpg}
+		\caption[Abmessungen Bildschirm Rückseite]{Abmessungen Bildschirm Rückseite}
+		\label{fig:screen-back-01}
+	\end{figure}
+	Anhand dieser Maße hat Manuel Starz dann in Fusion 360 eine Grundplanzeichnung erstellt.
+	\begin{figure}
+		\includegraphics[width=1\textwidth]{placeholder.png}
+		\caption[Grundzeichnung in Fusion360]{Grundzeichnung in Fusion360}
+		\label{fig:case-step-1}
+	\end{figure}
+	\begin{figure}
+		\includegraphics[width=1\textwidth]{placeholder.png}
+		\caption[Extrusion der Grundzeichnung für ein 3D-Modell]{Extrusion der Grundzeichnung für ein 3D-Modell}
+		\label{fig:case-step-1}
+	\end{figure}
+	Nach Überprüfung der Maße mussten wir dann allerdings feststellen, dass der zur Verfügung stehende 3D-Drucker, ein Ender 3 Pro der Firma Creality3D, ein maximales Druckvolumen von 235x235x220mm besitzt und somit das Gehäuse nicht wie ursrpünglich geplant aus einem Stück sondern in mehreren Teilen gedruckt werden musste. Hierfür war eine Änderung der Konstruktion von Nöten. Das Gehäuse besteht nun aus vier Teilen, zwei bilden jeweils die Seitenwände während zwei den Deckel des Gehäuses bilden. Die Teile werden mit langen M3 Senkkopfschrauben verbunden, die zusätzlich als Verschluss des Gehäuses dient. \par
+	Um die Genauigkeit der Konstruktion zu testen, hat Manuel Starz eine 5 Millimeter hohe Testschablone ausgedruckt, die an den Bildschirm angelegt werden kann. Diese entstand mit Hilfe des Slicers CURA, in dem die Modelle der beiden Seitenteile so angeordnet wurden, dass lediglich 5 Millimeter des Teils im druckbaren Bereich des Druckers verblieben.
+	\begin{figure}
+		\includegraphics[width=1\textwidth]{placeholder.png}
+		\caption[Ansicht aus CURA für die Testschablone]{Ansicht aus CURA für die Testschablone}
+		\label{fig:print-case-test}
+	\end{figure}
+	Das Gehäuse wird dann mit Klebstoff permanent am Bildschirm befestigt.
 	\subsection{Erstellung des RPi-HATs}
 	\section{Software}
 	\subsection{Überblick}
