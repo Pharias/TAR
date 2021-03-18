@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.7)  15 MAR 2021 15:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.2) (preloaded format=pdflatex 2021.3.7)  18 MAR 2021 10:08
 entering extended mode
 **./doku.tex
 (doku.tex
@@ -519,11 +519,7 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 File: l3backend-pdftex.def 2021-02-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box51
-) (doku.aux
-
-LaTeX Warning: Label `fig:case-step-1' multiply defined.
-
-)
+) (doku.aux)
 \openout1 = `doku.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 40.
@@ -544,7 +540,8 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 40.
 LaTeX Font Info:    ... okay on input line 40.
- (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count287
 \scratchdimen=\dimen171
@@ -579,7 +576,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
 * \topmargin=-38.1381pt
-* \headheight=20.0pt
+* \headheight=25.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
 * \footskip=30.0pt
@@ -645,15 +642,16 @@ LaTeX Info: Redefining \nameref on input line 40.
 \@outlinefile=\write3
 \openout3 = `doku.out'.
 
-<its_logo.pdf, id=135, 127.75229pt x 58.79466pt>
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 44.
+ (tex/titelseite.tex
+<pdf/its_logo.pdf, id=151, 127.75229pt x 58.79466pt>
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 4.
 (pdftex.def)             Requested size: 220.50887pt x 101.48457pt.
  [1
 
-{C:/Users/narfm/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./its_logo.pdf>
-] (doku.toc
+{C:/Users/narfm/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./pdf/its_logo.
+pdf>]) (doku.toc
 (C:\Users\narfm\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
@@ -677,423 +675,572 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 \tf@toc=\write4
 \openout4 = `doku.toc'.
 
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 63.
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 45.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 63.
+(Font)              using `OT1/phv/m/sc' instead on input line 45.
 
 
 Package scrlayer-scrpage Warning: \headheight to low.
 (scrlayer-scrpage)                At least 44.94261pt needed,
-(scrlayer-scrpage)                but only 20.0pt found.
+(scrlayer-scrpage)                but only 25.0pt found.
 (scrlayer-scrpage)                I'll enlarge \headheight, for further
 (scrlayer-scrpage)                processing, but you should do this yourself,
 (scrlayer-scrpage)                e.g., setting geometry's option
 (scrlayer-scrpage)                `head=44.94261pt'.
-(scrlayer-scrpage)                I'll also decrease \topmargin on input line 6
-3.
+(scrlayer-scrpage)                I'll also decrease \topmargin on input line 4
+5.
 
 
-Overfull \vbox (24.94261pt too high) has occurred while \output is active []
+Overfull \vbox (19.94261pt too high) has occurred while \output is active []
 
-
-
-LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 63.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 63.
+(Font)              using `OT1/phv/m/sc' instead on input line 45.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 45.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.63 	\newpage
-               [1]
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 74.
+l.45 	\newpage
+               [1] (tex/erklaerung.tex
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 11.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 74.
+(Font)              using `OT1/phv/m/sc' instead on input line 11.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 74.
+(Font)              using `OT1/phv/m/sc' instead on input line 11.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 74.
+(Font)              using `OT1/phv/m/sc' instead on input line 11.
 
-[2]
-<alexa_echo_show8.jpg, id=190, 1505.625pt x 1005.7575pt>
-File: alexa_echo_show8.jpg Graphic file (type jpg)
-<use alexa_echo_show8.jpg>
-Package pdftex.def Info: alexa_echo_show8.jpg  used on input line 95.
+[2]) (tex/vorwort.tex (tex/vw_einleitung.tex) (tex/vw_projektrahmen.tex)
+(tex/vw_aufgabenstellung.tex) (tex/vw_zusatzinformationen.tex)
+(tex/vw_definition.tex
+<img/alexa_echo_show8.jpg, id=210, 1505.625pt x 1005.7575pt>
+File: img/alexa_echo_show8.jpg Graphic file (type jpg)
+<use img/alexa_echo_show8.jpg>
+Package pdftex.def Info: img/alexa_echo_show8.jpg  used on input line 6.
 (pdftex.def)             Requested size: 92.61424pt x 61.86215pt.
 
-Underfull \hbox (badness 7486) in paragraph at lines 96--96
+Underfull \hbox (badness 7486) in paragraph at lines 7--7
 []\OT1/phv/m/n/12 (+20) Abbildung 1: []Amazon
  []
 
-<google_nest_hub.png, id=191, 963.6pt x 471.7625pt>
-File: google_nest_hub.png Graphic file (type png)
-<use google_nest_hub.png>
-Package pdftex.def Info: google_nest_hub.png  used on input line 102.
+<img/google_nest_hub.png, id=211, 963.6pt x 471.7625pt>
+File: img/google_nest_hub.png Graphic file (type png)
+<use img/google_nest_hub.png>
+Package pdftex.def Info: img/google_nest_hub.png  used on input line 13.
 (pdftex.def)             Requested size: 92.61424pt x 45.33618pt.
-<glancr_smart_mirror.jpeg, id=192, 1084.05pt x 1084.05pt>
-File: glancr_smart_mirror.jpeg Graphic file (type jpg)
-<use glancr_smart_mirror.jpeg>
-Package pdftex.def Info: glancr_smart_mirror.jpeg  used on input line 109.
+<img/glancr_smart_mirror.jpeg, id=212, 1084.05pt x 1084.05pt>
+File: img/glancr_smart_mirror.jpeg Graphic file (type jpg)
+<use img/glancr_smart_mirror.jpeg>
+Package pdftex.def Info: img/glancr_smart_mirror.jpeg  used on input line 20.
 (pdftex.def)             Requested size: 92.61424pt x 92.59792pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 110--110
+Underfull \hbox (badness 10000) in paragraph at lines 21--21
 []\OT1/phv/m/n/12 (+20) Abbildung 3: []Glancr
  []
 
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 113.
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 24.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 113.
+(Font)              using `OT1/phv/m/sc' instead on input line 24.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 113.
+(Font)              using `OT1/phv/m/sc' instead on input line 24.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 113.
+(Font)              using `OT1/phv/m/sc' instead on input line 24.
 
 [3]
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 145.
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 56.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 145.
+(Font)              using `OT1/phv/m/sc' instead on input line 56.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 145.
+(Font)              using `OT1/phv/m/sc' instead on input line 56.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 145.
+(Font)              using `OT1/phv/m/sc' instead on input line 56.
 
-[4 <./alexa_echo_show8.jpg> <./google_nest_hub.png> <./glancr_smart_mirror.jpeg
->]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 1
-56.
- (C:\Users\narfm\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1phv.fd
+[4 <./img/alexa_echo_show8.jpg> <./img/google_nest_hub.png> <./img/glancr_smart
+_mirror.jpeg>])) (tex/zielsetzung.tex (tex/zs_konzeption.tex)
+(tex/zs_anforderungen.tex
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 4
+.
+
+(C:\Users\narfm\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1phv.fd
 File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `phv' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 172.
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 20.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 172.
+(Font)              using `OT1/phv/m/sc' instead on input line 20.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 172.
+(Font)              using `OT1/phv/m/sc' instead on input line 20.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 172.
+(Font)              using `OT1/phv/m/sc' instead on input line 20.
 
-[5]
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 182.
+[5])
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 7.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 182.
+(Font)              using `OT1/phv/m/sc' instead on input line 7.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 182.
+(Font)              using `OT1/phv/m/sc' instead on input line 7.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 182.
+(Font)              using `OT1/phv/m/sc' instead on input line 7.
 
-[6]
-<TAR_FKMS_20202021.png, id=220, 1817.79124pt x 435.6275pt>
-File: TAR_FKMS_20202021.png Graphic file (type png)
-<use TAR_FKMS_20202021.png>
-Package pdftex.def Info: TAR_FKMS_20202021.png  used on input line 189.
+[6]) (tex/herangehensweise.tex (tex/hgw_hardware.tex) (tex/hgw_software.tex)
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 7.
+(pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 7.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 7.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 7.
+
+[7]) (tex/zeitplan.tex
+<img/TAR_FKMS_20202021.png, id=245, 1817.79124pt x 435.6275pt>
+File: img/TAR_FKMS_20202021.png Graphic file (type png)
+<use img/TAR_FKMS_20202021.png>
+Package pdftex.def Info: img/TAR_FKMS_20202021.png  used on input line 3.
 (pdftex.def)             Requested size: 441.01773pt x 105.68274pt.
-<abmessungen_gehäuse.jpg, id=221, 1284.8pt x 722.7pt>
-File: abmessungen_gehäuse.jpg Graphic file (type jpg)
-<use abmessungen_gehäuse.jpg>
-Package pdftex.def Info: abmessungen_gehäuse.jpg  used on input line 206.
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 7.
+(pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 7.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 7.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 7.
+
+[8 <./img/TAR_FKMS_20202021.png (PNG copy)>]) (tex/komplettuebersicht.tex
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 3.
+(pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 3.
+
+[9]) (tex/hardware.tex (tex/hw_raspberrypi.tex) (tex/hw_prototype.tex)
+(tex/hw_case.tex (tex/hw_case_ersterTest.tex
+<img/abmessungen_gehäuse.jpg, id=257, 1284.8pt x 722.7pt>
+File: img/abmessungen_gehäuse.jpg Graphic file (type jpg)
+<use img/abmessungen_gehäuse.jpg>
+Package pdftex.def Info: img/abmessungen_gehäuse.jpg  used on input line 9.
 (pdftex.def)             Requested size: 441.01773pt x 248.07463pt.
-<placeholder.png, id=222, 963.6pt x 542.025pt>
-File: placeholder.png Graphic file (type png)
-<use placeholder.png>
-Package pdftex.def Info: placeholder.png  used on input line 212.
-(pdftex.def)             Requested size: 441.01773pt x 248.0691pt.
-File: placeholder.png Graphic file (type png)
-<use placeholder.png>
-Package pdftex.def Info: placeholder.png  used on input line 217.
-(pdftex.def)             Requested size: 441.01773pt x 248.0691pt.
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 221.
+<img/druck_gehäuse_001.png, id=258, 1445.4pt x 790.45313pt>
+File: img/druck_gehäuse_001.png Graphic file (type png)
+<use img/druck_gehäuse_001.png>
+Package pdftex.def Info: img/druck_gehäuse_001.png  used on input line 17.
+(pdftex.def)             Requested size: 441.01773pt x 241.1783pt.
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 20.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 221.
+(Font)              using `OT1/phv/m/sc' instead on input line 20.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 221.
+(Font)              using `OT1/phv/m/sc' instead on input line 20.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 221.
+(Font)              using `OT1/phv/m/sc' instead on input line 20.
 
-[7 <./TAR_FKMS_20202021.png (PNG copy)>]
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 221.
+[10 <./img/abmessungen_gehäuse.jpg>]
+<img/druck_gehäuse_002.png, id=266, 1445.4pt x 790.45313pt>
+File: img/druck_gehäuse_002.png Graphic file (type png)
+<use img/druck_gehäuse_002.png>
+Package pdftex.def Info: img/druck_gehäuse_002.png  used on input line 22.
+(pdftex.def)             Requested size: 441.01773pt x 241.1783pt.
+File: img/druck_gehäuse_002.png Graphic file (type png)
+<use img/druck_gehäuse_002.png>
+Package pdftex.def Info: img/druck_gehäuse_002.png  used on input line 27.
+(pdftex.def)             Requested size: 441.01773pt x 241.1783pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<img/testdruck_an_bildschirm.jpg, id=267, 1284.8pt x 963.6pt>
+File: img/testdruck_an_bildschirm.jpg Graphic file (type jpg)
+<use img/testdruck_an_bildschirm.jpg>
+Package pdftex.def Info: img/testdruck_an_bildschirm.jpg  used on input line 32
+.
+(pdftex.def)             Requested size: 441.01773pt x 330.76617pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (tex/hw_case_modellentwicklung.tex)
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 6.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 221.
+(Font)              using `OT1/phv/m/sc' instead on input line 6.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 221.
+(Font)              using `OT1/phv/m/sc' instead on input line 6.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 221.
+(Font)              using `OT1/phv/m/sc' instead on input line 6.
 
-[8 <./abmessungen_gehäuse.jpg> <./placeholder.png>]
-File: placeholder.png Graphic file (type png)
-<use placeholder.png>
-Package pdftex.def Info: placeholder.png  used on input line 224.
-(pdftex.def)             Requested size: 441.01773pt x 248.0691pt.
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 237.
+[11 <./img/druck_gehäuse_001.png> <./img/druck_gehäuse_002.png>]
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 6.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 237.
+(Font)              using `OT1/phv/m/sc' instead on input line 6.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 237.
+(Font)              using `OT1/phv/m/sc' instead on input line 6.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 237.
+(Font)              using `OT1/phv/m/sc' instead on input line 6.
 
-[9]
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 237.
+[12 <./img/testdruck_an_bildschirm.jpg>]) (tex/hw_hat.tex)
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 10.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 237.
+(Font)              using `OT1/phv/m/sc' instead on input line 10.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 237.
+(Font)              using `OT1/phv/m/sc' instead on input line 10.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 237.
+(Font)              using `OT1/phv/m/sc' instead on input line 10.
 
-[10]
+[13]) (tex/software.tex (tex/sw_ueberblick.tex) (tex/sw_mqtt-broker.tex)
+(tex/sw_hassio.tex) (tex/sw_mycroft.tex) (tex/sw_hat.tex)
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 12.
+(pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 12.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 12.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 12.
+
+[14]) (tex/fazit.tex (tex/fz_LatexVsWord.tex
+
+Package hyperref Warning: Difference (2) between bookmark levels is greater 
+(hyperref)                than one, level fixed on input line 1.
+
+
+Overfull \hbox (36.05699pt too wide) in paragraph at lines 2--3
+\OT1/phv/m/n/12 (-20) Danke Herr Koh-ler. Ih-re fast 2 Jah-re lan-ges Ge-jam-me
+r []uber WYSIWYG-Dokumenteneditoren
+ []
+
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 3.
+(pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 3.
+
+[15])) (tex/quellen.tex (tex/qu_doku.tex
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Overfull \hbox (14.34467pt too wide) in paragraph at lines 243--244
+Overfull \hbox (14.34467pt too wide) in paragraph at lines 4--5
 [][]$\OT1/cmtt/m/n/12 https : / / www . otto . de / updated / ratgeber / erklae
 rt -[] was -[] ist -[] ein -[] smart -[] home -[]
  []
 
-
-Overfull \hbox (13.88467pt too wide) in paragraph at lines 246--265
-[] 
+) (tex/qu_software.tex) (tex/qu_hardware.tex
+Overfull \hbox (13.88467pt too wide) in paragraph at lines 2--1
+[]
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
-pdfTeX warning: pdflatex (file ./lastenheft.pdf): PDF inclusion: found PDF vers
-ion <1.6>, but at most version <1.5> allowed
-<lastenheft.pdf, id=251, page=1, 597.53635pt x 845.04686pt>
-File: lastenheft.pdf Graphic file (type pdf)
-<use lastenheft.pdf, page 1>
-Package pdftex.def Info: lastenheft.pdf , page1 used on input line 283.
-(pdftex.def)             Requested size: 432.19548pt x 611.21846pt.
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 284.
-(pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
+ []
 
-LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 284.
-
-
-LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 284.
-
-
-LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 284.
-
-[11]
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 284.
+)
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 8.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 284.
+(Font)              using `OT1/phv/m/sc' instead on input line 8.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 284.
+(Font)              using `OT1/phv/m/sc' instead on input line 8.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 284.
+(Font)              using `OT1/phv/m/sc' instead on input line 8.
 
-[12 <./lastenheft.pdf>]
+[16]) (tex/anhang.tex (tex/ah_lastenheft.tex
 
-pdfTeX warning: pdflatex (file ./lastenheft.pdf): PDF inclusion: found PDF vers
-ion <1.6>, but at most version <1.5> allowed
-<lastenheft.pdf, id=283, page=2, 597.53635pt x 845.04686pt>
-File: lastenheft.pdf Graphic file (type pdf)
-<use lastenheft.pdf, page 2>
-Package pdftex.def Info: lastenheft.pdf , page2 used on input line 285.
-(pdftex.def)             Requested size: 432.19548pt x 611.21846pt.
+pdfTeX warning: pdflatex (file ./pdf/lastenheft.pdf): PDF inclusion: found PDF 
+version <1.7>, but at most version <1.5> allowed
+<pdf/lastenheft.pdf, id=312, page=1, 597.55246pt x 845.07718pt>
+File: pdf/lastenheft.pdf Graphic file (type pdf)
+<use pdf/lastenheft.pdf, page 1>
+Package pdftex.def Info: pdf/lastenheft.pdf , page1 used on input line 2.
+(pdftex.def)             Requested size: 441.01773pt x 623.70969pt.
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 3.
+(pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
-Overfull \hbox (8.80257pt too wide) in paragraph at lines 285--286
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 3.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 3.
+
+[17 <./pdf/lastenheft.pdf>]
+
+pdfTeX warning: pdflatex (file ./pdf/lastenheft.pdf): PDF inclusion: found PDF 
+version <1.7>, but at most version <1.5> allowed
+<pdf/lastenheft.pdf, id=344, page=2, 597.55246pt x 845.07718pt>
+File: pdf/lastenheft.pdf Graphic file (type pdf)
+<use pdf/lastenheft.pdf, page 2>
+Package pdftex.def Info: pdf/lastenheft.pdf , page2 used on input line 4.
+(pdftex.def)             Requested size: 441.01773pt x 623.70969pt.
+
+Overfull \hbox (17.62482pt too wide) in paragraph at lines 4--5
 [][] 
  []
 
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 286.
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 5.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 286.
+(Font)              using `OT1/phv/m/sc' instead on input line 5.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 286.
+(Font)              using `OT1/phv/m/sc' instead on input line 5.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 286.
+(Font)              using `OT1/phv/m/sc' instead on input line 5.
 
-[13 <./lastenheft.pdf>]
-Overfull \hbox (25.54718pt too wide) in paragraph at lines 290--291
+[18 <./pdf/lastenheft.pdf>]) (tex/ah_gehaeuse.tex
+
+pdfTeX warning: pdflatex (file ./pdf/gehäuse_zeichnung_fußabdruck.pdf): PDF i
+nclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<pdf/gehäuse_zeichnung_fußabdruck.pdf, id=365, page=1, 845.07724pt x 1194.984
+47pt>
+File: pdf/gehäuse_zeichnung_fußabdruck.pdf Graphic file (type pdf)
+<use pdf/gehäuse_zeichnung_fußabdruck.pdf, page 1>
+Package pdftex.def Info: pdf/gehäuse_zeichnung_fußabdruck.pdf , page1 used on
+ input line 3.
+(pdftex.def)             Requested size: 441.01773pt x 623.62006pt.
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 6.
+(pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 6.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 6.
+
+
+LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
+(Font)              using `OT1/phv/m/sc' instead on input line 6.
+
+[19 <./pdf/gehäuse_zeichnung_fußabdruck.pdf>]) (tex/ah_hardwaredoku.tex
+Overfull \hbox (25.54718pt too wide) in paragraph at lines 4--5
 [][]$\OT1/cmtt/m/n/12 https : / / www . raspberrypi . org / documentation / har
 dware / raspberrypi / bcm2711 /
  []
 
 
-Overfull \hbox (37.54468pt too wide) in paragraph at lines 293--294
+Overfull \hbox (37.54468pt too wide) in paragraph at lines 7--8
 [][]$\OT1/cmtt/m/n/12 https : / / ww1 . microchip . com / downloads / en / Devi
 ceDoc / Atmel -[] 8266 -[] MCU _ Wireless -[]
  []
 
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 295.
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 9.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 295.
+(Font)              using `OT1/phv/m/sc' instead on input line 9.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 295.
+(Font)              using `OT1/phv/m/sc' instead on input line 9.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 295.
+(Font)              using `OT1/phv/m/sc' instead on input line 9.
 
-[14] (doku.lof)
+[20])) (doku.lof)
 \tf@lof=\write5
 \openout5 = `doku.lof'.
 
  
 AED: lastpage setting LastPage
-File: its_logo.pdf Graphic file (type pdf)
-<use its_logo.pdf>
-Package pdftex.def Info: its_logo.pdf  used on input line 297.
+File: pdf/its_logo.pdf Graphic file (type pdf)
+<use pdf/its_logo.pdf>
+Package pdftex.def Info: pdf/its_logo.pdf  used on input line 70.
 (pdftex.def)             Requested size: 88.2022pt x 40.59258pt.
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 297.
+(Font)              using `OT1/phv/m/sc' instead on input line 70.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 297.
+(Font)              using `OT1/phv/m/sc' instead on input line 70.
 
 
 LaTeX Font Warning: Font shape `OT1/phv/m/scsl' undefined
-(Font)              using `OT1/phv/m/sc' instead on input line 297.
+(Font)              using `OT1/phv/m/sc' instead on input line 70.
 
-[15] (doku.aux)
-
-LaTeX Warning: There were multiply-defined labels.
-
+[21] (doku.aux)
 Package rerunfilecheck Info: File `doku.out' has not changed.
-(rerunfilecheck)             Checksum: 96A5784D13715CE20198EA9EF80E396F;4148.
+(rerunfilecheck)             Checksum: BA3EECFDD1B3878B1ACEF74B42B3D07B;4846.
  ) 
 Here is how much of TeX's memory you used:
- 14721 strings out of 479408
- 246648 string characters out of 2867916
- 633924 words of memory out of 3000000
- 31577 multiletter control sequences out of 15000+200000
- 440881 words of font info for 207 fonts, out of 3000000 for 9000
+ 14925 strings out of 479408
+ 251851 string characters out of 2867916
+ 636484 words of memory out of 3000000
+ 31640 multiletter control sequences out of 15000+200000
+ 442577 words of font info for 211 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 126i,23n,130p,784b,577s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 126i,23n,130p,808b,579s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX
 /fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files/MiKTeX/fonts/type1
 /urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr
 8a.pfb>
-Output written on doku.pdf (16 pages, 5736203 bytes).
+Output written on doku.pdf (22 pages, 6665595 bytes).
 PDF statistics:
- 359 PDF objects out of 1000 (max. 8388607)
- 61 named destinations out of 1000 (max. 500000)
- 72502 words of extra memory for PDF output out of 74296 (max. 10000000)
+ 436 PDF objects out of 1000 (max. 8388607)
+ 72 named destinations out of 1000 (max. 500000)
+ 76663 words of extra memory for PDF output out of 89155 (max. 10000000)
 
