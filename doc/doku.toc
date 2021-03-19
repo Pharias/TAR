@@ -1,37 +1,41 @@
-\contentsline {section}{\numberline {1}Vorwort}{3}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Einleitung}{3}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Projektrahmen}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Aufgabenstellung}{3}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Zusatzinformationen}{3}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Definition Smart Home Zentrale}{4}{subsection.1.5}%
-\contentsline {section}{\numberline {2}Zielsetzung}{5}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Konzeption}{5}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Anforderungen und gewünschte Features}{5}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Herangehensweise}{7}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Hardware}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Software}{7}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Zeitplan}{8}{section.4}%
-\contentsline {section}{\numberline {5}Komplettübersicht}{9}{section.5}%
-\contentsline {section}{\numberline {6}Hardware}{10}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Raspberry Pi 4}{10}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Aufbau des Prototypen}{10}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Gehäuse}{10}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}Erster Test des Gehäuses}{10}{subsubsection.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.2}Modellentwicklung am Objekt}{13}{subsubsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{13}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Software}{14}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Überblick}{14}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}MQTT-Broker}{14}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}HomeAssistant}{14}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}MyCroft}{14}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}HAT-Programm}{14}{subsection.7.5}%
-\contentsline {section}{\numberline {8}Epilog \& Fazit}{15}{section.8}%
-\contentsline {subsubsection}{\numberline {8.0.1}\LaTeX vs Word}{15}{subsubsection.8.0.1}%
-\contentsline {section}{\numberline {9}Quellen}{16}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Dokumentationsquellen}{16}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Verwendete Software}{16}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Verwendete Hardware}{16}{subsection.9.3}%
-\contentsline {section}{\numberline {10}Anhang}{17}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Lastenheft}{17}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Gehäuse-Zeichunungen}{19}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Hardware-Dokumentationen}{21}{subsection.10.3}%
+\contentsline {section}{\numberline {1}Vorwort}{4}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Einleitung}{4}{subsection.1.1}%
+\contentsline {subsection}{\numberline {1.2}Projektrahmen}{4}{subsection.1.2}%
+\contentsline {subsection}{\numberline {1.3}Aufgabenstellung}{4}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.4}Zusatzinformationen}{4}{subsection.1.4}%
+\contentsline {subsection}{\numberline {1.5}Definition Smart Home Zentrale}{5}{subsection.1.5}%
+\contentsline {subsection}{\numberline {1.6}Datenschutzhinweis}{6}{subsection.1.6}%
+\contentsline {section}{\numberline {2}Zielsetzung}{7}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Konzeption}{7}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Anforderungen und gewünschte Features}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Herangehensweise}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Hardware}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Software}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Zeitplan}{10}{section.4}%
+\contentsline {section}{\numberline {5}Komplettübersicht}{11}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Kostenaufstellung}{11}{subsection.5.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Kostenberechung für die 3D-Druckteile}{11}{subsubsection.5.1.1}%
+\contentsline {section}{\numberline {6}Hardware}{12}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Raspberry Pi 4}{12}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Aufbau des Prototypen}{12}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Gehäuse}{12}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Erster Test des Gehäuses}{12}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.2}Modellentwicklung am Objekt}{15}{subsubsection.6.3.2}%
+\contentsline {subsubsection}{\numberline {6.3.3}Herstellung des Gehäuses}{15}{subsubsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{17}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Software}{19}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Überblick}{19}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}MQTT-Broker}{19}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}HomeAssistant}{19}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}MyCroft}{19}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}HAT-Programm}{19}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Epilog \& Fazit}{20}{section.8}%
+\contentsline {subsubsection}{\numberline {8.0.1}\LaTeX vs Word}{20}{subsubsection.8.0.1}%
+\contentsline {section}{\numberline {9}Quellen}{21}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Dokumentationsquellen}{21}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Verwendete Software}{21}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Verwendete Hardware}{21}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Anhang}{22}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Lastenheft}{22}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Gehäuse-Zeichunungen}{24}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Hardware-Dokumentationen}{29}{subsection.10.3}%
