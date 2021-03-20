@@ -131,3 +131,11 @@ sudo systemctl daemon-reload
 sudo systemctl start docker-event-listener.service
 sudo systemctl status docker-event-listener.service
 sudo systemctl enable docker-event-listener.service
+
+
+##########################################################################
+Quellen
+##########################################################################
+https://www.zigbee2mqtt.io/information/docker.html
+https://www.home-assistant.io/installation/raspberrypi
+https://rsw.io/how-to-install-docker-on-a-raspberry-pi/
