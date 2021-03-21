@@ -65,28 +65,28 @@ echo "System erfolgreich aktualisiert." &&
 if [ -d "$DOCKER" ]; then 
     echo "verzeichnis $DOCKER existiert bereits."
 else 
-    mkdir /home/pi/docker 
+    mkdir $DOCKER 
     echo "verzeichnis $DOCKER wurde erstellt."
 fi
 
 if [ -d "$HOMEASSISTANT" ]; then 
     echo "verzeichnis $HOMEASSISTANT existiert bereits."
 else 
-    mkdir /home/pi/docker/homeassistant
+    mkdir $HOMEASSISTANT
     echo "verzeichnis $HOMEASSISTANT wurde erstellt."
 fi
 
 if [ -d "$MQTT" ]; then 
     echo "verzeichnis $MQTT existiert bereits."
 else 
-    mkdir /home/pi/docker/mqtt
+    mkdir $MQTT
     echo "verzeichnis $MQTT wurde erstellt."
 fi
 
 if [ -d "$ZIGBEE" ]; then 
     echo "verzeichnis $ZIGBEE existiert bereits."
 else 
-    mkdir /home/pi/docker/zigbee2mqtt
+    mkdir $ZIGBEE
     echo "verzeichnis $ZIGBEE wurde erstellt."
 fi
 
