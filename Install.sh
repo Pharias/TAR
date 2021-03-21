@@ -2,7 +2,7 @@
 
 echo "**********************************************************************" &&
 echo "" &&
-echo "diese Anwendung intalliert docker, homeassistant, mqtt und zigbee2mqtt" &&
+echo "dieses Script intalliert docker, homeassistant, mqtt und zigbee2mqtt" &&
 echo "stellen sie sicher das dieses Script durch user pi ausgefürt wird" &&
 echo "" &&
 echo "**********************************************************************" &&
