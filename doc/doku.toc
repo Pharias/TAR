@@ -22,13 +22,13 @@
 \contentsline {subsection}{\numberline {6.2}Aufbau des Prototypen}{13}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Gehäuse}{13}{subsection.6.3}%
 \contentsline {subsubsection}{\numberline {6.3.1}Erster Test des Gehäuses}{13}{subsubsection.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.2}Modellentwicklung am Objekt}{16}{subsubsection.6.3.2}%
-\contentsline {paragraph}{Grundskizze}{16}{section*.13}%
+\contentsline {subsubsection}{\numberline {6.3.2}Modellentwicklung am Objekt}{14}{subsubsection.6.3.2}%
+\contentsline {paragraph}{Grundskizze}{14}{section*.13}%
 \contentsline {paragraph}{Linkes Wandteil}{16}{section*.15}%
 \contentsline {paragraph}{Rechtes Wandteil}{17}{section*.17}%
 \contentsline {paragraph}{Gehäuserückwand}{18}{section*.19}%
-\contentsline {subsubsection}{\numberline {6.3.3}Herstellung des Gehäuses}{19}{subsubsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{21}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.3.3}Herstellung des Gehäuses}{21}{subsubsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{24}{subsection.6.4}%
 \contentsline {section}{\numberline {7}Software}{26}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Überblick}{26}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}MQTT-Broker}{26}{subsection.7.2}%
@@ -40,9 +40,9 @@
 \contentsline {section}{\numberline {9}Quellen}{28}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Dokumentationsquellen}{28}{subsection.9.1}%
 \contentsline {subsection}{\numberline {9.2}Verwendete Software}{28}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Verwendete Hardware}{28}{subsection.9.3}%
-\contentsline {section}{\numberline {10}Anhang}{29}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Lastenheft}{29}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Gehäuse-Zeichunungen}{31}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Raspberry Pi HAT E-Schema}{36}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Hardware-Dokumentationen}{37}{subsection.10.4}%
+\contentsline {subsection}{\numberline {9.3}Verwendete Hardware}{29}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Anhang}{30}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Lastenheft}{30}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Gehäuse-Zeichunungen}{32}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Raspberry Pi HAT E-Schema}{37}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Hardware-Dokumentationen}{38}{subsection.10.4}%
