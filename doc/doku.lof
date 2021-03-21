@@ -1,20 +1,24 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces Amazon Alexa Echo Show 8}}{5}{figure.1}%
-\contentsline {figure}{\numberline {2}{\ignorespaces Google Nest Hub}}{5}{figure.2}%
-\contentsline {figure}{\numberline {3}{\ignorespaces Glancr Smart Mirror}}{5}{figure.3}%
-\contentsline {figure}{\numberline {4}{\ignorespaces gantt-Diagramm des Projektablaufs}}{9}{figure.4}%
-\contentsline {figure}{\numberline {5}{\ignorespaces Smart Home Zentrale}}{10}{figure.5}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Gehäuse mit Füßen}}{11}{figure.6}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Abmessungen Bildschirm Rückseite}}{13}{figure.7}%
-\contentsline {figure}{\numberline {8}{\ignorespaces Platzierung der beiden Gehäusewände in CURA}}{14}{figure.8}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Verschiebung der Modelle entlang der Z-Achse um 45mm}}{14}{figure.9}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Slicen der Modelle}}{15}{figure.10}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Passung des Testdrucks}}{15}{figure.11}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Zeichnen der Außenmaße}}{16}{figure.12}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Abrunden der Ecken}}{17}{figure.13}%
-\contentsline {figure}{\numberline {14}{\ignorespaces 3D-Drucker Ender 3 Pro (mod)}}{17}{figure.14}%
-\contentsline {figure}{\numberline {15}{\ignorespaces OctoPrint-Weboberfläche}}{18}{figure.15}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Ausgedruckte Teile des Gehäuses}}{18}{figure.16}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Verklebung des Gehäusedeckels}}{19}{figure.17}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Verklebung der Gehäuseseiten}}{19}{figure.18}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Abschleifen der Gehäuseaußenseite}}{20}{figure.19}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Fertig lackiertes Gehäuse}}{20}{figure.20}%
+\contentsline {figure}{\numberline {1}{\ignorespaces Beispiele für Smart Home Zentralen}}{5}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Beispiele für Smart Home Software}}{5}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces gantt-Diagramm des Projektablaufs}}{9}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Smart Home Zentrale}}{10}{figure.caption.6}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Gehäuse mit Füßen}}{11}{figure.caption.7}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Abmessungen Bildschirm Rückseite}}{13}{figure.caption.8}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Platzierung der beiden Gehäusewände in CURA}}{14}{figure.caption.9}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Verschiebung der Modelle entlang der Z-Achse um 45mm}}{14}{figure.caption.10}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Slicen der Modelle}}{15}{figure.caption.11}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Passung des Testdrucks}}{15}{figure.caption.12}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Grundzeichnung als Basis des Modells}}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Entwurf des linken Wandteils}}{17}{figure.caption.16}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Entwurf des rechten Wandteils}}{19}{figure.caption.18}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Entwurf der Gehäuserückwand}}{20}{figure.caption.20}%
+\contentsline {figure}{\numberline {15}{\ignorespaces 3D-Drucker Ender 3 Pro (mod)}}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {16}{\ignorespaces OctoPrint-Weboberfläche}}{21}{figure.caption.22}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Das Gehäuse entsteht}}{22}{figure.caption.23}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Ausgedruckte Teile des Gehäuses}}{22}{figure.caption.24}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Verklebung des Gehäusedeckels}}{23}{figure.caption.25}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Verklebung der Gehäuseseiten}}{23}{figure.caption.26}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Abschleifen der Gehäuseaußenseite}}{24}{figure.caption.27}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Fertig lackiertes Gehäuse}}{24}{figure.caption.28}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Raspberry Pi 4 GPIO-Pins}}{25}{figure.caption.29}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Aktueller Stand HAT-Design}}{25}{figure.caption.30}%

@@ -23,21 +23,26 @@
 \contentsline {subsection}{\numberline {6.3}Gehäuse}{13}{subsection.6.3}%
 \contentsline {subsubsection}{\numberline {6.3.1}Erster Test des Gehäuses}{13}{subsubsection.6.3.1}%
 \contentsline {subsubsection}{\numberline {6.3.2}Modellentwicklung am Objekt}{16}{subsubsection.6.3.2}%
-\contentsline {subsubsection}{\numberline {6.3.3}Herstellung des Gehäuses}{16}{subsubsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{18}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Software}{20}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Überblick}{20}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}MQTT-Broker}{20}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}HomeAssistant}{20}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}MyCroft}{20}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}HAT-Programm}{20}{subsection.7.5}%
-\contentsline {section}{\numberline {8}Epilog \& Fazit}{21}{section.8}%
-\contentsline {subsubsection}{\numberline {8.0.1}\LaTeX vs Word}{21}{subsubsection.8.0.1}%
-\contentsline {section}{\numberline {9}Quellen}{22}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Dokumentationsquellen}{22}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Verwendete Software}{22}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Verwendete Hardware}{22}{subsection.9.3}%
-\contentsline {section}{\numberline {10}Anhang}{23}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Lastenheft}{23}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Gehäuse-Zeichunungen}{25}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Hardware-Dokumentationen}{30}{subsection.10.3}%
+\contentsline {paragraph}{Grundskizze}{16}{section*.13}%
+\contentsline {paragraph}{Linkes Wandteil}{16}{section*.15}%
+\contentsline {paragraph}{Rechtes Wandteil}{17}{section*.17}%
+\contentsline {paragraph}{Gehäuserückwand}{18}{section*.19}%
+\contentsline {subsubsection}{\numberline {6.3.3}Herstellung des Gehäuses}{19}{subsubsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{21}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Software}{26}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Überblick}{26}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}MQTT-Broker}{26}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}HomeAssistant}{26}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}MyCroft}{26}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}HAT-Programm}{26}{subsection.7.5}%
+\contentsline {section}{\numberline {8}Epilog \& Fazit}{27}{section.8}%
+\contentsline {subsubsection}{\numberline {8.0.1}\LaTeX vs Word}{27}{subsubsection.8.0.1}%
+\contentsline {section}{\numberline {9}Quellen}{28}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Dokumentationsquellen}{28}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Verwendete Software}{28}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Verwendete Hardware}{28}{subsection.9.3}%
+\contentsline {section}{\numberline {10}Anhang}{29}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Lastenheft}{29}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Gehäuse-Zeichunungen}{31}{subsection.10.2}%
+\contentsline {subsection}{\numberline {10.3}Raspberry Pi HAT E-Schema}{36}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.4}Hardware-Dokumentationen}{37}{subsection.10.4}%
