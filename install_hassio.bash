@@ -9,10 +9,11 @@ MQTT=/home/pi/docker/mqtt
 ZIGBEE=/home/pi/docker/zigbee2mqtt
 DOCKERSCRIPT=docker-script.sh
 PIVER=$(cat /proc/device-tree/model | cut -d' ' -f3)
+PIADDRESS=$(hostname -I | cut -d' ' -f1)
 # Prüft ob Root:
 if [[ $EUID -ne 0 ]]; then
    echo "Dieses Script muss mit root-Rechten ausgeführt werden!" 1>&2
-   Help
+#   Help
    exit 1
 fi
 
@@ -143,3 +144,5 @@ docker run \
    koenkk/zigbee2mqtt
 
 # für später: Installation MyCroft
+
+echo "Home Assistant installiert. Öffnen Sie einen Browser und geben http:\\$PIADDRESS:8123 ein, um die Webeinrichtung durchzuführen."
