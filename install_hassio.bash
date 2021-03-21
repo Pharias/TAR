@@ -106,16 +106,32 @@ else
     echo "docker wurde installiert"
 fi
 
-# Installation Home-Assistants
-docker run --init -d \
+#Prüfe RPi-Version
+PIVER=$(cat /proc/device-tree/model | cut -d' ' -f3)
+if [ $PIVER == 3 ]; then
+	echo "Raspberry Pi Version $PIVER erkannt. Installiere entsprechende Home-Assistants-Version."
+	# Installation Home-Assistants
+	docker run --init -d \
 	--name homeassistant \
   	--restart=unless-stopped \
   	-v /etc/localtime:/etc/localtime:ro \
   	-v /home/pi/docker/homeassistant:/config \
   	--network=host \
   	homeassistant/raspberrypi3-homeassistant:stable
-        #für RBPI4
-        #homeassistant/raspberrypi4-homeassistant:stable
+elif [ $PIVER == 4 ]; then
+	echo "Raspberry Pi Version $PIVER erkannt. Installiere entsprechende Home-Assistants-Version."
+	# Installation Home-Assistants
+	docker run --init -d \
+	--name homeassistant \
+  	--restart=unless-stopped \
+  	-v /etc/localtime:/etc/localtime:ro \
+  	-v /home/pi/docker/homeassistant:/config \
+  	--network=host \
+    homeassistant/raspberrypi4-homeassistant:stable
+else
+	echo "PI Version unbekannt. Installation abgebrochen"
+	exit -1;;
+fi
 echo "Home Assistant wurde erfolgreich installiert"
 # Installation von MQTT
 
