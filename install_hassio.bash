@@ -74,21 +74,21 @@ fi
 if [ -d "$HOMEASSISTANT" ]; then 
     echo "verzeichnis $HOMEASSISTANT existiert bereits."
 else 
-    mkdir homeassistant
+    mkdir /home/pi/docker/homeassistant
     echo "verzeichnis $HOMEASSISTANT wurde erstellt."
 fi
 
 if [ -d "$MQTT" ]; then 
     echo "verzeichnis $MQTT existiert bereits."
 else 
-    mkdir mqtt
+    mkdir /home/pi/docker/mqtt
     echo "verzeichnis $MQTT wurde erstellt."
 fi
 
 if [ -d "$ZIGBEE" ]; then 
     echo "verzeichnis $ZIGBEE existiert bereits."
 else 
-    mkdir zigbee2mqtt
+    mkdir /home/pi/docker/zigbee2mqtt
     echo "verzeichnis $ZIGBEE wurde erstellt."
 fi
 
