@@ -14,56 +14,56 @@ echo "#                 werden gesucht und erstellt                        #"
 echo "#                                                                    #"
 echo "######################################################################"
 #
-sudo apt-get update &&
-sudo apt-get upgrade &&
-echo "System erfolgreich aktualisiert." &&
+#sudo apt-get update &&
+#sudo apt-get upgrade &&
+#echo "System erfolgreich aktualisiert." &&
 #
-if [ -d "$DOCKER" ]; then 
+if [ -d "$DOCKER" ]; then
     echo "#                                                                    #"
-        echo "#               Verzeichnis Docker existiert bereits                 #"               
+        echo "#               Verzeichnis Docker existiert bereits                 #"
         echo "#                                                                    #"
         echo "######################################################################"
-else 
-    mkdir /home/pi/docker 
+else
+    mkdir $DOCKER
     echo "#                                                                    #"
         echo "#               Verzeichnis Docker wurde erstellt                    #"
         echo "#                                                                    #"
-        echo "######################################################################""
+        echo "######################################################################"
 fi
 #
-if [ -d "$HOMEASSISTANT" ]; then 
+if [ -d "$HOMEASSISTANT" ]; then
     echo "#                                                                    #"
         echo "#            Verzeichnis Homeassistant existiert bereits             #"
         echo "#                                                                    #"
         echo "######################################################################"
-else 
-    mkdir homeassistant
+else
+    mkdir $HOMEASSISTANT
     echo "#                                                                    #"
         echo "#            Verzeichnis Homeassistant wurde erstellt                #"
         echo "#                                                                    #"
         echo "######################################################################"
 fi
 #
-if [ -d "$MQTT" ]; then 
+if [ -d "$MQTT" ]; then
     echo "#                                                                    #"
         echo "#               Verzeichnis Mqtt wurde existiert bereits             #"
         echo "#                                                                    #"
         echo "######################################################################"
-else 
-    mkdir mqtt
+else
+    mkdir $MQTT
     echo "#                                                                    #"
         echo "#               Verzeichnis Mqtt wurde erstellt                      #"
         echo "#                                                                    #"
         echo "######################################################################"
 fi
 #
-if [ -d "$ZIGBEE" ]; then 
+if [ -d "$ZIGBEE" ]; then
     echo "#                                                                    #"
         echo "#            Verzeichnis Zigbee2MQTT wurde existiert bereits         #"
         echo "#                                                                    #"
         echo "######################################################################"
-else 
-    mkdir zigbee2mqtt
+else
+    mkdir $ZIGBEE
     echo "#                                                                    #"
         echo "#            Verzeichnis Zigbee2MQTT wurde erstellt                  #"
         echo "#                                                                    #"

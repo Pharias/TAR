@@ -2,15 +2,13 @@
 # Installer-Skript für die TAR von Felix Kuschel und Manuel Starz
 # Version 1
 # 
-
 # Variablen
 DOCKER=/home/pi/docker
 HOMEASSISTANT=/home/pi/docker/homeassistant
 MQTT=/home/pi/docker/mqtt
 ZIGBEE=/home/pi/docker/zigbee2mqtt
 DOCKERSCRIPT=docker-script.sh
-PIVERSION="${cat /proc/device-tree/model}"
-
+PIVER=$(cat /proc/device-tree/model | cut -d' ' -f3)
 # Prüft ob Root:
 if [[ $EUID -ne 0 ]]; then
    echo "Dieses Script muss mit root-Rechten ausgeführt werden!" 1>&2
@@ -93,8 +91,7 @@ else
 fi
 
 # Installation Docker
-if [ -f "$DOCKERSCRIPT" ]
-then
+if [ -f "$DOCKERSCRIPT" ]; then
     echo " $DOCKERSCRIPT existiert bereits."
     sudo sh docker-script.sh
     sudo usermod -aG docker pi
@@ -107,8 +104,7 @@ else
 fi
 
 #Prüfe RPi-Version
-PIVER=$(cat /proc/device-tree/model | cut -d' ' -f3)
-if [ $PIVER == 3 ]; then
+if [ $PIVER -eq 3 ]; then
 	echo "Raspberry Pi Version $PIVER erkannt. Installiere entsprechende Home-Assistants-Version."
 	# Installation Home-Assistants
 	docker run --init -d \
@@ -118,7 +114,7 @@ if [ $PIVER == 3 ]; then
   	-v /home/pi/docker/homeassistant:/config \
   	--network=host \
   	homeassistant/raspberrypi3-homeassistant:stable
-elif [ $PIVER == 4 ]; then
+elif [ $PIVER -eq 4 ]; then
 	echo "Raspberry Pi Version $PIVER erkannt. Installiere entsprechende Home-Assistants-Version."
 	# Installation Home-Assistants
 	docker run --init -d \
