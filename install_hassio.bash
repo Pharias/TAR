@@ -107,23 +107,11 @@ fi
 if [ $PIVER -eq 3 ]; then
 	echo "Raspberry Pi Version $PIVER erkannt. Installiere entsprechende Home-Assistants-Version."
 	# Installation Home-Assistants
-	docker run --init -d \
-	--name homeassistant \
-  	--restart=unless-stopped \
-  	-v /etc/localtime:/etc/localtime:ro \
-  	-v /home/pi/docker/homeassistant:/config \
-  	--network=host \
-  	homeassistant/raspberrypi3-homeassistant:stable
+	docker run --init -d --name homeassistant --restart=unless-stopped -v /etc/localtime:/etc/localtime:ro -v /home/pi/docker/homeassistant:/config --network=host homeassistant/raspberrypi3-homeassistant:stable
 elif [ $PIVER -eq 4 ]; then
 	echo "Raspberry Pi Version $PIVER erkannt. Installiere entsprechende Home-Assistants-Version."
 	# Installation Home-Assistants
-	docker run --init -d \
-	--name homeassistant \
-  	--restart=unless-stopped \
-  	-v /etc/localtime:/etc/localtime:ro \
-  	-v /home/pi/docker/homeassistant:/config \
-  	--network=host \
-    homeassistant/raspberrypi4-homeassistant:stable
+	docker run --init -d --name homeassistant --restart=unless-stopped -v /etc/localtime:/etc/localtime:ro -v /home/pi/docker/homeassistant:/config --network=host homeassistant/raspberrypi4-homeassistant:stable
 else
 	echo "PI Version unbekannt. Installation abgebrochen"
 	exit -1;;
@@ -133,13 +121,6 @@ echo "Home Assistant wurde erfolgreich installiert"
 
 # Installation von Zigbee2MQTT
 
-docker run \
-   -it \
-   -v /home/pi/docker/zigbee2mqtt \
-   --device=/dev/ttyACM0 \              #Ort des CC2531
-   -e TZ=Europe/Berlin \
-   -v /run/udev:/run/udev:ro \
-   --privileged=true \
-   koenkk/zigbee2mqtt
+docker run -it -v /home/pi/docker/zigbee2mqtt --device=/dev/ttyACM0 -e TZ=Europe/Berlin -v /run/udev:/run/udev:ro --privileged=true koenkk/zigbee2mqtt
 
 # für später: Installation MyCroft
