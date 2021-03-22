@@ -1,3 +1,4 @@
+\babel@toc {ngerman}{}
 \contentsline {section}{\numberline {1}Vorwort}{4}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Einleitung}{4}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Projektrahmen}{4}{subsection.1.2}%
@@ -34,7 +35,6 @@
 \contentsline {subsection}{\numberline {7.2}MQTT-Broker}{26}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}HomeAssistant}{26}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}MyCroft}{26}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}HAT-Programm}{26}{subsection.7.5}%
 \contentsline {section}{\numberline {8}Epilog \& Fazit}{27}{section.8}%
 \contentsline {subsubsection}{\numberline {8.0.1}\LaTeX vs Word}{27}{subsubsection.8.0.1}%
 \contentsline {section}{\numberline {9}Quellen}{28}{section.9}%
