@@ -28,7 +28,7 @@
 \contentsline {paragraph}{Rechtes Wandteil}{17}{section*.17}%
 \contentsline {paragraph}{Gehäuserückwand}{18}{section*.19}%
 \contentsline {subsubsection}{\numberline {6.3.3}Herstellung des Gehäuses}{21}{subsubsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{24}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{23}{subsection.6.4}%
 \contentsline {section}{\numberline {7}Software}{26}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Überblick}{26}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}MQTT-Broker}{26}{subsection.7.2}%
