@@ -26,13 +26,29 @@ Die gedruckten Teile (vgl. \ref{fig:printet_parts}) werden dann zum Teil mit Zwe
 	\caption[Das Gehäuse entsteht]{Das Gehäuse entsteht}
 	\label{fig:printing_parts}
 \end{figure}
+\par
 \begin{figure}[h!tb]
-	\begin{subfigure}[b]{0.5\linewidth}
-		\centering
-		\includegraphics[width=1\textwidth]{img/placeholder.png}
-		\caption[Ausgedruckte Teile des Gehäuses]{Ausgedruckte Teile des Gehäuses}
-		\label{fig:printet_parts}
+	\centering
+	\begin{subfigure}[b]{0.3\linewidth}
+		\includegraphics[width=1\linewidth,angle=270]{img/gehauese_rueck.jpg}
+		\caption[Rückseite]{Rückseite}
+		\label{printet_parts_back}
 	\end{subfigure}
+	\begin{subfigure}[b]{0.3\linewidth}
+		\includegraphics[width=1\linewidth,angle=270]{img/gehauese_links.jpg}
+		\caption[Linke Seite]{Linke Seite}
+		\label{printet_parts_left}
+	\end{subfigure}
+	\begin{subfigure}[b]{0.3\linewidth}
+		\includegraphics[width=1\linewidth,angle=270]{img/gehauese_rechts.jpg}
+		\caption[Rechte Seite]{Rechte Seite}
+		\label{printet_parts_right}
+	\end{subfigure}
+	\caption[Ausgedruckte Teile des Gehäuses]{Ausgedruckte Teile des Gehäuses}
+	\label{fig:printet_parts}
+\end{figure}
+\par
+\begin{figure}[h!tb]
 	\begin{subfigure}[b]{0.5\linewidth}
 		\centering
 		\includegraphics[width=1\textwidth]{img/placeholder.png}
@@ -59,6 +75,7 @@ Die gedruckten Teile (vgl. \ref{fig:printet_parts}) werden dann zum Teil mit Zwe
 	\end{subfigure}
 	\caption[Fertigung des Gehäuses]{Fertigung des Gehäuses}
 	\label{fig:creating-case}
-\end{figure}
+\end{figure}\par
 Laut Ultimaker CURA beträgt die Gesamtdruckdauer des Gehäuses 36 Stunden 36 Minuten und verbraucht insgesamt 423 Gramm des verwendeten Filaments (dasFilament PETG Schwarz). Damit belaufen sich die Materialkosten des Gehäuses auf 11,61\euro{}.
-\newpage
+\par
+Bei der Herstellung kam es aber zu einem Problem, dass die Stützstrukturen den Druck am Lüftereinlass an den Seitenwänden gestört habem was dazu führte, dass das Lüftergitter an der  linken Seitenwand (vgl. \ref{printet_parts_left}) nicht richtig gedruckt wurde.
