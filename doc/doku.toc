@@ -26,15 +26,16 @@
 \contentsline {subsubsection}{\numberline {6.3.2}Modellentwicklung am Objekt}{16}{subsubsection.6.3.2}%
 \contentsline {paragraph}{Grundskizze}{16}{section*.14}%
 \contentsline {paragraph}{Linkes Wandteil}{18}{section*.16}%
-\contentsline {paragraph}{Rechtes Wandteil}{19}{section*.18}%
-\contentsline {paragraph}{Gehäuserückwand}{21}{section*.20}%
+\contentsline {paragraph}{Rechtes Wandteil}{18}{section*.18}%
+\contentsline {paragraph}{Gehäuserückwand}{20}{section*.20}%
 \contentsline {subsubsection}{\numberline {6.3.3}Herstellung des Gehäuses}{22}{subsubsection.6.3.3}%
 \contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{24}{subsection.6.4}%
 \contentsline {section}{\numberline {7}Software}{27}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Überblick}{27}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}MQTT-Broker}{27}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}HomeAssistant}{27}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}MyCroft}{27}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.3}Zigbee}{27}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}HomeAssistant}{27}{subsection.7.4}%
+\contentsline {subsection}{\numberline {7.5}MyCroft}{27}{subsection.7.5}%
 \contentsline {section}{\numberline {8}Epilog \& Fazit}{28}{section.8}%
 \contentsline {subsubsection}{\numberline {8.0.1}\LaTeX vs Word}{28}{subsubsection.8.0.1}%
 \contentsline {section}{\numberline {9}Quellen}{29}{section.9}%
