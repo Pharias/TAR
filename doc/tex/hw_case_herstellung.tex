@@ -14,8 +14,9 @@ Der für den 3D-Druck nötige G-Code wird mit Ultimaker CURA generiert und mit H
 	\caption[OctoPrint-Weboberfläche]{OctoPrint-Weboberfläche}
 	\label{fig:octoprint}
 \end{figure}
-Die gedruckten Teile (vgl. \ref{fig:printet_parts}) werden dann zum Teil mit Zwei-Komponenten-Epoxidkleber verbunden (vgl. \ref{fig:glued_parts_01} \& \ref{fig:glued_parts_02}) und mit Hilfe von Schleifpapier (vgl. \ref{fig_filed_parts}) und einigen Schichten Klarlack zu einem klavierlackähnlichen Finish veredelt (vgl. \ref{fig:finished_parts}). 
-Die Seitenwände werden dann mit dem Bildschirm mit Hilfe des Zwei-Komponenten-Epoxidklebers permanent verklebt. 
+\noindent Die gedruckten Teile (vgl. \ref{fig:printet_parts}) werden dann zum Teil mit Zwei-Komponenten-Epoxidkleber verbunden (vgl. \ref{fig:glued_parts}) und mit Hilfe von Schleifpapier und einigen Schichten Klarlack zu einem klavierlackähnlichen Finish veredelt (vgl. \ref{filed_and_painted_parts}). 
+Die Seitenwände werden dann mit dem Bildschirm mit Hilfe des Zwei-Komponenten-Epoxidklebers und Heißkleber permanent verklebt (vgl. \ref{fig:finished_case_front}).
+Danach wurden die Platinen und Kabel im Gehäuse angebracht (vgl. \ref{fig:finished_case_front}). 
 Die Rückseite besteht der Einfachheit halber aus zwei identischen, punktsymmetrischen Teilen, die ebenfalls miteinander verklebt wurden.\par
 \begin{figure}[h!tb]
 	\begin{subfigure}[b]{0.5\linewidth}
@@ -55,31 +56,31 @@ Die Rückseite besteht der Einfachheit halber aus zwei identischen, punktsymmetr
 \begin{figure}[h!tb]
 	\begin{subfigure}[b]{0.5\linewidth}
 		\centering
-		\includegraphics[width=1\textwidth]{img/placeholder.png}
-		\caption[Verklebung des Gehäusedeckels]{Verklebung des Gehäusedeckels}
-		\label{fig:glued_parts_01}
+		\includegraphics[width=1\textwidth]{img/gehaeuse-verklebt.jpg}
+		\caption[Verklebung des Gehäusess]{Verklebung des Gehäuses}
+		\label{fig:glued_parts}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.5\linewidth}
 		\centering
-		\includegraphics[width=1\textwidth]{img/placeholder.png}
-		\caption[Verklebung der Gehäuseseiten]{Verklebung der Gehäuseseiten}
-	\label{fig:glued_parts_02}
+		\includegraphics[width=1\textwidth]{img/gehaeuse-lakiert.jpg}
+		\caption[Abgeschliffene und lackierte Teile]{Abgeschliffene und lackierte Teile}
+		\label{fig:filed_and_painted_parts}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.5\linewidth}
 		\centering
-		\includegraphics[width=1\textwidth]{img/placeholder.png}
-		\caption[Abschleifen der Gehäuseaußenseite]{Abschleifen der Gehäuseaußenseite}
-		\label{fig:filed_parts}
+		\includegraphics[width=1\textwidth]{img/geraet_front.jpg}
+		\caption[Gehäuse und Bildschirm verklebt (von vorne)]{Gehäuse und Bildschirm verklebt (von vorne)}
+		\label{fig:finished_case_front}
 	\end{subfigure}
 	\begin{subfigure}[b]{0.5\linewidth}
 		\centering
-		\includegraphics[width=1\textwidth]{img/placeholder.png}
-		\caption[Fertig lackiertes Gehäuse]{Fertig lackiertes Gehäuse}
-		\label{fig:finished_parts}
+		\includegraphics[width=1\textwidth]{img/geraet_rueck.jpg}
+		\caption[Gehäuse und Bildschirm verklebt (von hinten)]{Gehäuse und Bildschirm verklebt (von hinten)}
+		\label{fig:finished_case_back}
 	\end{subfigure}
 	\caption[Fertigung des Gehäuses]{Fertigung des Gehäuses}
 	\label{fig:creating-case}
 \end{figure}\par
-Laut Ultimaker CURA beträgt die Gesamtdruckdauer des Gehäuses 36 Stunden 36 Minuten und verbraucht insgesamt 423 Gramm des verwendeten Filaments (dasFilament PETG Schwarz). 
+\noindent Laut Ultimaker CURA beträgt die Gesamtdruckdauer des Gehäuses 36 Stunden 36 Minuten und verbraucht insgesamt 423 Gramm des verwendeten Filaments (dasFilament PETG Schwarz). 
 Damit belaufen sich die Materialkosten des Gehäuses auf 11,61\euro{}.\par
 \noindent Bei der Herstellung kam es aber zu einem Problem, dass die Stützstrukturen den Druck am Lüftereinlass an den Seitenwänden gestört habem was dazu führte, dass das Lüftergitter an der  linken Seitenwand (vgl. \ref{printet_parts_left}) nicht richtig gedruckt wurde.
