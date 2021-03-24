@@ -1,49 +1,49 @@
 \babel@toc {ngerman}{}
-\contentsline {section}{\numberline {1}Vorwort}{4}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Einleitung}{4}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Projektrahmen}{4}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Aufgabenstellung}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Zusatzinformationen}{4}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Definition Smart Home Zentrale}{5}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Datenschutzhinweis}{5}{subsection.1.6}%
-\contentsline {section}{\numberline {2}Zielsetzung}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Konzeption}{6}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Anforderungen und gewünschte Features}{6}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Herangehensweise}{8}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Hardware}{8}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Software}{8}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Zeitplan}{9}{section.4}%
-\contentsline {section}{\numberline {5}Komplettübersicht}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Das ,,fertige`` Produkt}{10}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Kostenaufstellung}{11}{subsection.5.2}%
-\contentsline {subsubsection}{\numberline {5.2.1}Beschaffungskosten}{11}{subsubsection.5.2.1}%
-\contentsline {subsubsection}{\numberline {5.2.2}Kostenberechung für die 3D-Druckteile}{12}{subsubsection.5.2.2}%
-\contentsline {section}{\numberline {6}Hardware}{13}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Raspberry Pi 4}{13}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Aufbau des Prototypen}{14}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Gehäuse}{15}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}Erster Test des Gehäuses}{15}{subsubsection.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.2}Modellentwicklung am Objekt}{16}{subsubsection.6.3.2}%
-\contentsline {paragraph}{Grundskizze}{16}{section*.14}%
-\contentsline {paragraph}{Linkes Wandteil}{18}{section*.16}%
-\contentsline {paragraph}{Rechtes Wandteil}{18}{section*.18}%
-\contentsline {paragraph}{Gehäuserückwand}{20}{section*.20}%
-\contentsline {subsubsection}{\numberline {6.3.3}Herstellung des Gehäuses}{22}{subsubsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{24}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Software}{27}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Überblick}{27}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}MQTT-Broker}{27}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Zigbee}{27}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}HomeAssistant}{27}{subsection.7.4}%
-\contentsline {subsection}{\numberline {7.5}MyCroft}{27}{subsection.7.5}%
-\contentsline {section}{\numberline {8}Epilog \& Fazit}{28}{section.8}%
-\contentsline {subsubsection}{\numberline {8.0.1}\LaTeX vs Word}{28}{subsubsection.8.0.1}%
-\contentsline {section}{\numberline {9}Quellen}{29}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Dokumentationsquellen}{29}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Verwendete Software}{29}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Verwendete Hardware}{30}{subsection.9.3}%
-\contentsline {section}{\numberline {10}Anhang}{31}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Lastenheft}{31}{subsection.10.1}%
-\contentsline {subsection}{\numberline {10.2}Gehäuse-Zeichunungen}{33}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Raspberry Pi HAT E-Schema}{38}{subsection.10.3}%
-\contentsline {subsection}{\numberline {10.4}Hardware-Dokumentationen}{39}{subsection.10.4}%
+\contentsline {section}{\numberline {1}Vorwort}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Einleitung}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Projektrahmen}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Aufgabenstellung}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Zusatzinformationen}{3}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Definition Smart Home Zentrale}{4}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Datenschutzhinweis}{4}{subsection.1.6}
+\contentsline {section}{\numberline {2}Zielsetzung}{5}{section.2}
+\contentsline {subsection}{\numberline {2.1}Konzeption}{5}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Anforderungen und gew\IeC {\"u}nschte Features}{5}{subsection.2.2}
+\contentsline {section}{\numberline {3}Herangehensweise}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Hardware}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Software}{7}{subsection.3.2}
+\contentsline {section}{\numberline {4}Zeitplan}{8}{section.4}
+\contentsline {section}{\numberline {5}Komplett\IeC {\"u}bersicht}{9}{section.5}
+\contentsline {subsection}{\numberline {5.1}Das ,,fertige`` Produkt}{9}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Kostenaufstellung}{10}{subsection.5.2}
+\contentsline {subsubsection}{\numberline {5.2.1}Beschaffungskosten}{10}{subsubsection.5.2.1}
+\contentsline {subsubsection}{\numberline {5.2.2}Kostenberechung f\IeC {\"u}r die 3D-Druckteile}{11}{subsubsection.5.2.2}
+\contentsline {section}{\numberline {6}Hardware}{12}{section.6}
+\contentsline {subsection}{\numberline {6.1}Raspberry Pi 4}{12}{subsection.6.1}
+\contentsline {subsection}{\numberline {6.2}Aufbau des Prototypen}{13}{subsection.6.2}
+\contentsline {subsection}{\numberline {6.3}Geh\IeC {\"a}use}{14}{subsection.6.3}
+\contentsline {subsubsection}{\numberline {6.3.1}Erster Test des Geh\IeC {\"a}uses}{14}{subsubsection.6.3.1}
+\contentsline {subsubsection}{\numberline {6.3.2}Modellentwicklung am Objekt}{16}{subsubsection.6.3.2}
+\contentsline {paragraph}{Grundskizze}{16}{section*.14}
+\contentsline {paragraph}{Linkes Wandteil}{17}{section*.16}
+\contentsline {paragraph}{Rechtes Wandteil}{19}{section*.18}
+\contentsline {paragraph}{Geh\IeC {\"a}user\IeC {\"u}ckwand}{21}{section*.20}
+\contentsline {subsubsection}{\numberline {6.3.3}Herstellung des Geh\IeC {\"a}uses}{23}{subsubsection.6.3.3}
+\contentsline {subsection}{\numberline {6.4}Erstellung des RPi-HATs}{24}{subsection.6.4}
+\contentsline {section}{\numberline {7}Software}{26}{section.7}
+\contentsline {subsection}{\numberline {7.1}\IeC {\"U}berblick}{26}{subsection.7.1}
+\contentsline {subsection}{\numberline {7.2}MQTT-Broker}{26}{subsection.7.2}
+\contentsline {subsection}{\numberline {7.3}Zigbee}{26}{subsection.7.3}
+\contentsline {subsection}{\numberline {7.4}HomeAssistant}{26}{subsection.7.4}
+\contentsline {subsection}{\numberline {7.5}MyCroft}{26}{subsection.7.5}
+\contentsline {section}{\numberline {8}Epilog \& Fazit}{28}{section.8}
+\contentsline {subsubsection}{\numberline {8.0.1}\LaTeX vs Word}{28}{subsubsection.8.0.1}
+\contentsline {section}{\numberline {9}Quellen}{29}{section.9}
+\contentsline {subsection}{\numberline {9.1}Dokumentationsquellen}{29}{subsection.9.1}
+\contentsline {subsection}{\numberline {9.2}Verwendete Software}{29}{subsection.9.2}
+\contentsline {subsection}{\numberline {9.3}Verwendete Hardware}{30}{subsection.9.3}
+\contentsline {section}{\numberline {10}Anhang}{31}{section.10}
+\contentsline {subsection}{\numberline {10.1}Lastenheft}{31}{subsection.10.1}
+\contentsline {subsection}{\numberline {10.2}Geh\IeC {\"a}use-Zeichunungen}{33}{subsection.10.2}
+\contentsline {subsection}{\numberline {10.3}Raspberry Pi HAT E-Schema}{38}{subsection.10.3}
+\contentsline {subsection}{\numberline {10.4}Hardware-Dokumentationen}{39}{subsection.10.4}
