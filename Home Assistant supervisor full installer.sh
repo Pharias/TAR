@@ -51,7 +51,7 @@ if[ $DOCKER eq "1" ]; then
 	sudo sh get-docker.sh
 	docker --version
 	echo "Docker wurde Erfolgreich installiert $TIMESTAMP" >> /home/pi/Installlog.txt
-	wait 20s
+	sleep 20s
 fi
 
 #installation von Homeassistant Supervised
@@ -63,6 +63,7 @@ if[ $HOMEASSISTANT eq "1" ]; then
 	sudo apt-get jq -y &&
 	echo "jq wurde installiert $TIMESTAMP" >> /home/pi/Installlog.txt
 	$DEPENDENCIES=1
+	sleep 3m
 	echo "Dependencies für HomeAssistant wurden installiert $TIMESTAMP" >> /home/pi/Installlog.txt 
 fi
 if[ $HOMEASSISTANT eq "1" ]; then
