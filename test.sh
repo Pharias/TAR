@@ -73,8 +73,8 @@ if [[ "$DOCKER" -eq 1 ]]; then
 	echo "Beginne mit Docker Installation..."
 	curl -fsSL https://get.docker.com -o get-docker.sh >> $LOGFILE
 	sudo sh get-docker.sh >> $LOGFILE
-	sudo usermod -aG docker pi
-	docker --version
+	sudo usermod -aG docker pi >> $LOGFILE
+	# docker version
 	echo "Docker installiert. Warte 20s."
 	echo "$TIMESTAMP: Docker wurde erfolgreich installiert " >> $LOGFILE
 	sleep 20s
@@ -83,12 +83,12 @@ else
 fi
 # Installiert Dependencies sofern nötig
 if [[ "$DEPENDENCIES" -eq 1 ]]; then
-		echo "$TIMESTAMP: Raspberry Pi 4 Dependencies werden installiert." >> $LOGFILE
-		sudo apt-get install network-manager -y &&
+		echo "$TIMESTAMP: Dependencies werden installiert." >> $LOGFILE
+		sudo apt-get install network-manager -y >> $LOGFILE
 		echo "$TIMESTAMP: Network-Manager wurde installiert" >> $LOGFILE
-		sudo apt-get install apparmor-utils -y &&
+		sudo apt-get install apparmor-utils -y >> $LOGFILE
 		echo "$TIMESTAMP: Apparmor wurde installiert" >> $LOGFILE
-		sudo apt-get install jq -y &&
+		sudo apt-get install jq -y >> $LOGFILE
 		echo "$TIMESTAMP: jq wurde installiert" >> $LOGFILE
 		echo "$TIMESTAMP: Dependencies für HomeAssistant wurden installiert " >> $LOGFILE
 else
@@ -96,7 +96,7 @@ else
 fi
 #Installation von Home Assistant Supervised
 if [[ "$HOMEASSISTANT" -eq 1 ]]; then
-    sudo curl -Lo installer.sh https://raw.githubusercontent.com/home-assistant/supervised-installer/master/installer.sh
+    sudo curl -Lo installer.sh https://raw.githubusercontent.com/home-assistant/supervised-installer/master/installer.sh >> $LOGFILE
     sudo bash installer.sh --machine $MACHINE
     echo "$TIMESTAMP: HomeAssistant Supervised wurden installiert" >> $LOGFILE
     echo "Weboberflaeche des Home Assistant ist unter http://$PIADDRESS:8123 erreichbar." >> $LOGFILE
