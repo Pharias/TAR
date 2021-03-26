@@ -24,6 +24,8 @@ Nachfolgen haben wir die Kosten des Projekts aufgelistet.\par
 	\hline
 	dasFilament PTGE schwarz 1,75mm & 1 & 24,95\euro{}\footnote{Kosten der Spule (800g).} & 11,61\euro{}\footnote{Kosten verwendetes Material für Gehäusedruck} \\
 	\hline
+	USB-Verlängerung & 1 & 9,99\euro{} & 9,99\euro{}\\
+	\hline
 	% hier noch die Kosten für das Zeug, das du gekauft hast, Felix. der Stick steht ja schon drin, aber weiß nicht ob der Preis passt...
 	%\hline
 	\textbf{Gesamtkosten} &  &  & \textbf{XXX\euro{}} \\ % Kosten zusammenrechnen ;)
@@ -32,13 +34,16 @@ Nachfolgen haben wir die Kosten des Projekts aufgelistet.\par
 \end{center}
 
 \subsubsection{Kostenberechung für die 3D-Druckteile}
+\noindent Die Kosten lassen mit folgender Formel darstellen:\\
+\[
+K_{gesamt} =  (K_{Material/g} \cdot M_{Material}) +  (T_{Druck} \cdot  K_{kWh} \cdot V_{\emptyset/h})
+\]
 Die Kosten der 3D-Druckteile lassen sich in zwei Einzelpositionen, Material und Energie.
 Die Materialkosten lassen sich leicht berechnen, da wir die Kosten der Spule Filament mit 24.95\euro{} und einem Gewicht von 800g Filament auf der Spule.
-Dies bedeutet einen Preis von 0,02(74...)\euro{} pro Gramm verwendetem Filament.
-Der Druck der Gehäuseteile verbraucht 423g Material, dass heißt, dass die Materialkosten sich auf 11,61\euro{} belaufen.\par
+Dies bedeutet einen Preis von 0,02(74...)\euro{} ($K_{Material/g}$) pro Gramm verwendetem Filament.
+Der Druck der Gehäuseteile verbraucht 423g Material ($M_{Material}$), dass heißt, dass die Materialkosten sich auf 11,61\euro{} belaufen.\par
 \noindent Die Energiekosten zu berechnen ist etwas komplexer.
-Der 3D-Drucker verbraucht circa 120W pro Stunde\footnote{Robert (2019): Antwort auf Creality Ender 3 printer power consumption? - 3dprinting Stack Exchange}, was bei einem Strompreis von 22,3\euro{}ct / kWh bedeuten würde, dass wir pro Stunde etwa 2,676\euro{}ct Stromkosten haben. 
-Bei einer Gesamtdruckzeit von 36 Stunden und 36 Minuten ergibt sich also Stromkosten von 97,9416\euro{}ct.\par
-\noindent Zählt man nun die Kosten für Material und energie zusammen, ergibt sich ein Fertigungspreis von 12,59\euro{}. 
+Der 3D-Drucker verbraucht circa 120W pro Stunde($V_{\emptyset/h}$)\footnote{Robert (2019): Antwort auf Creality Ender 3 printer power consumption? - 3dprinting Stack Exchange}, was bei einem Strompreis von 22,3\euro{}ct / kWh ($K_{kWh}$) bedeuten würde, dass wir pro Stunde etwa 2,676\euro{}ct Stromkosten haben. 
+Bei einer Gesamtdruckzeit von 36 Stunden und 36 Minuten($T_{Druck}$) ergibt sich also Stromkosten von 97,9416\euro{}ct.\par
+\noindent Zählt man nun die Kosten für Material und Energie zusammen, ergibt sich ein Fertigungspreis von 12,59\euro{} ($K_{gesamt}$). 
 Dabei ist die Veredelung (Schleifen \& Lackieren) noch nicht mit einkalkuliert.\par
-\noindent Demnach lässt sich die Kosten 
