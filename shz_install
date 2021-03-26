@@ -49,8 +49,9 @@ get_time () {
 }
 # Update-Funktion
 run_update () {
-	sudo apt update $VERBOSE $LOG
-	sudo apt upgrade -y $VERBOSE $LOG
+	sudo apt -qq update $VERBOSE $LOG
+	sudo apt -qq upgrade -y $VERBOSE $LOG
+	sudo apt -qq autoremove -y $VERBOSE $LOG
 	return 0
 }
 # Sorgt für Ausgabe der Befehle auf dem Bildschirm UND in der Logfile
@@ -114,6 +115,7 @@ do
 	echo "   Smart Home Zentrale   " $VERBOSE $LOG
         echo "---Installationsskript---" $VERBOSE $LOG
 	get_time && echo "$TIMESTAMP" $VERBOSE $LOG
+
 	# Wenn erfolgreich, löschen:
 	debug
 done
