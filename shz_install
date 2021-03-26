@@ -1,0 +1,120 @@
+#!/bin/bash
+###############################################
+# Installationsskript für Smart Home Zentrale #
+#                                             #
+# (c) Felix Kuschel & Manuel Starz            #
+###############################################
+# Skript installiert Docker, Home-Assistant   #
+# und MQTT-Broker uns Zigbee2Mqtt             #
+###############################################
+# Version: 1.0                                #
+###############################################
+# Variablen für Skript
+# Version des Pi (3 oder 4)
+PIVER=$(cat /proc/device-tree/model | cut -d' ' -f3)
+# IP-Adresse des Raspberry Pi
+PIADDRESS=$(hostname -I | cut -d' ' -f1)
+# Update-Flag
+UPDATE=1
+# Docker-Installationsflag
+DOCKER=1
+# Homeassistant-Flag
+HOMEASSISTANT=1
+# Dependencies-Flag
+DEPENDENCIES=1
+# Log-File
+LOG=shz_install.log
+# Verbose-Setting
+VERBOSE=">>"
+#Zeitstempel
+TIMESTAMP=`date +%Y-%m-%d_%H-%M-%S
+# Funktionen für Skript
+# Hilfe-Funktion
+show_help () {
+	echo "   Smart Home Zentrale   "
+        echo "---Installationsskript---"
+        echo
+        echo "Das Installationsskript kann mit diversen Startparametern arbeiten."
+        echo "Die uebliche Syntax lautet:"
+        echo "  shz_install [-h|]"
+        echo
+        echo " -h:   Ruft diese Hilfeseite auf"
+        echo
+        echo "Der grundlegende Ablauf des Skripts wird in der Datei $LOG geloggt."
+	echo
+}
+# Zeitstempel aktualisieren
+get_time () {
+	TIMESTAMP=`date +%Y-%m-%d_%H-%M-%S`
+}
+# Update-Funktion
+run_update () {
+	sudo apt update $VERBOSE $LOG
+	sudo apt upgrade -y $VERBOSE $LOG
+	return 0
+}
+# Sorgt für Ausgabe der Befehle auf dem Bildschirm UND in der Logfile
+set_verbose () {
+	VERBOSE= "| tee -a"
+	return 0
+}
+# Festlegen des Machinentyps
+get_piver () {
+	if [[ "$PIVER" = 4 ]]; then
+		MACHINE=raspberrypi4
+		echo "$TIMESTAMP: Raspberry Pi Version $PIVER erkannt." $VERBOSE $LOG
+		return 0
+	elif [[ "$PIVER" = 3 ]]; then
+		MACHINE=raspberrypi3
+		echo "$TIMESTAMP: Raspberry Pi Version $PIVER erkannt." $VERBOSE $LOG
+		return 0
+	else
+		# Fehlermeldung
+		echo "Skript abgebrochen. Pi-Version nicht erkannt/korrekt" $VERBOSE $LOG
+		return -1
+	fi
+}
+# Debug-Funktion. Kann nach Test gelöschert werden!
+debug () {
+	echo "DEBUG MODE"
+	echo "----------------------------------------------------"
+	echo "VARIABLEN: "
+	echo "PIVER: 		$PIVER"
+	echo "PIADRESS: 	$PIADRESS"
+	echo "UPDATE:		$DOCKER"
+	echo "HOMEASSISTANT:	$HOMEASSISTANT"
+	echo "DEPENDENCIES:	$DEPENDENCIES"
+	echo "LOGFILE:		$LOG"
+	echo "VERBOSE:		$VERBOSE"
+	echo "TIMESTAMP:	$TIMESTAMP"
+	echo "----------------------------------------------------"
+	echo "METHODENAUFRUFE"
+	show_help
+	set_verbose
+	get_piver
+	get_time
+	echo "----------------------------------------------------"
+	echo "VARIABLEN 2: "
+	echo "PIVER: 		$PIVER"
+	echo "PIADRESS: 	$PIADRESS"
+	echo "UPDATE:		$DOCKER"
+	echo "HOMEASSISTANT:	$HOMEASSISTANT"
+	echo "DEPENDENCIES:	$DEPENDENCIES"
+	echo "LOGFILE:		$LOG"
+	echo "VERBOSE:		$VERBOSE"
+	echo "TIMESTAMP:	$TIMESTAMP"
+	echo "MACHINE:		$MACHINE"
+	echo "----------------------------------------------------"
+	return -1
+}
+# Haupt-Routine...
+while [[ $? = 0 ]]
+do
+	#STUFF GOES HERE
+	echo "   Smart Home Zentrale   " $VERBOSE $LOG
+        echo "---Installationsskript---" $VERBOSE $LOG
+	get_time && echo "$TIMESTAMP" $VERBOSE $LOG
+	# Wenn erfolgreich, löschen:
+	debug
+done
+
