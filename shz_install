@@ -13,22 +13,22 @@
 # Version des Pi (3 oder 4)
 PIVER=$(cat /proc/device-tree/model | cut -d' ' -f3)
 # Update-Flag
-UPDATE=false
+UPDATE=0
 # Docker-Installationsflag
-DOCKER=false
+DOCKER=0
 # Homeassistant-Flag
-HOMEASSISTANT=false
+HOMEASSISTANT=0
 # Dependencies-Flag
-DEPENDENCIES=false
+DEPENDENCIES=0
 # Prüfung ob Dependencies installiert sind (siehe preflightcheck)
-NWM=false
-APA=false
-JQ=false
+NWM=0
+APA=0
+JQ=0
 # Log-File
 LOG=shz_install.log
 #Zeitstempel
-STARTTIME=`date +%c`
-TIMESTAMP=`date +%T`
+STARTTIME=$(date +%c)
+TIMESTAMP=$(date +%T)
 # Funktionen für Skript
 # Hilfe-Funktion
 show_help () {
@@ -54,7 +54,7 @@ show_help () {
 }
 # Zeitstempel aktualisieren
 get_time () {
-	TIMESTAMP=`date +%T`
+	TIMESTAMP=$(date +%T)
 }
 # Update-Funktion
 run_update () {
@@ -84,15 +84,18 @@ get_piver () {
 # Installiert die Dependencies.
 install_dependencies () {
 	get_time && echo "$TIMESTAMP: Installiere Dependencies." >> $LOG
-	if [[ "$NWM" -eq 'true' ]]; then
+	# Prüft, ob Networkmanager installiert werden muss (Siehe preflightcheck)
+	if [[ "$NWM" -eq 0 ]]; then
 		get_time && echo "$TIMESTAMP: Installiere Network Manager." >> $LOG
 		sudo apt-get -qq install network-manager -y >> $LOG
 	fi
-	if [[ "$APA" -eq 'true' ]]; then
+	# Prüft, ob AppArmor installiert werden muss (Siehe preflightcheck)
+	if [[ "$APA" -eq 0 ]]; then
 		get_time && echo "$TIMESTAMP: Installiere AppArmor." >> $LOG
 		sudo apt-get -qq install apparmor-utils -y >> $LOG
 	fi
-	if [[ "$JQ" -eq 'true' ]]; then
+	# Prüft, ob JQ installiert werden muss (Siehe preflightcheck)
+	if [[ "$JQ" -eq 0 ]]; then
 		get_time && echo "$TIMESTAMP: Installiere JQ." >> $LOG
 		sudo apt-get -qq install jq -y >> $LOG
 	fi
@@ -101,10 +104,17 @@ install_dependencies () {
 # Installiert Docker
 install_docker () {
 	get_time && echo "$TIMESTAMP: Installiere Docker." >> $LOG
+	# Holt sich das Installationsskript für Docker
 	curl -fsSL https://get.docker.com -o get-docker.sh >> $LOG
+	# Ändert die Zugriffsrechte für das Skript
 	chmod 770 get-docker.sh >> $LOG
+	# Führt das Skript aus
 	sudo sh get-docker.sh
+	# Fügt den Standard-Nutzer der Docker-Gruppe hinzu
 	sudo usermod -aG docker pi >> $LOG
+	# Wartet 20s
+	sleep 20s
+	# Gibt 0 zurück
 	return 0
 }
 # Installiert Home Assistant Supervised. 
@@ -266,19 +276,22 @@ install_homeassistant () {
 # Systemprüfung vor Installationsstart
 preflightcheck () {
 	get_time && echo "$TIMESTAMP: Prüfe System..." >> $LOG
-	if [[ "$DOCKER" -eq false ]] && [[ "$DEPENDENCIES" -eq false ]] && [[ "$HOMEASSISTANT" -eq false ]] && [[ "$UPDATE" -eq false ]]; then
+	if [[ "$DOCKER" -eq 0 ]] && [[ "$DEPENDENCIES" -eq 0 ]] && [[ "$HOMEASSISTANT" -eq 0 ]] && [[ "$UPDATE" -eq 0 ]]; then
+		get_time && echo "$TIMESTAMP: Keine Flags gesetzt. Zeige Hilfe und breche Skript ab." >> $LOG
 		show_help
 		exit 1
 	fi
 	# Prüfe Docker
 	get_time && echo "$TIMESTAMP: Prüfe Docker-Installation..." >> $LOG
 	command -v "docker" >/dev/null 2>&1
-	if [[ $? -eq 0 ]]; then
+	if [[ $? -eq 0 ]] && [[ "$DOCKER" -eq 1 ]]; then
 		get_time && echo "$TIMESTAMP: Docker existiert bereits. Das Programm wird nicht erneut installiert." >> $LOG
-		DOCKER=false
+		DOCKER=0
+	elif [[ $? -eq 0 ]] && [[ "$DOCKER" -eq 0 ]]; then
+		get_time && echo "$TIMESTAMP: Docker existiert bereits." >> $LOG
 	else
 		get_time && echo "$TIMESTAMP: Docker existiert nicht. Das Programm wird unabhängig der Nutzerwahl installiert." >> $LOG
-		DOCKER=true
+		DOCKER=1
 	fi
 	# Prüfe Dependencies
 	get_time && echo "$TIMESTAMP: Prüfe Dependencies" >> $LOG
@@ -286,40 +299,43 @@ preflightcheck () {
 	command -v "nmcli" >/dev/null 2 >&1
 	if [[ $? -eq 0 ]]; then
 		get_time && echo "$TIMESTAMP: Networkmanager existiert bereits. Das Programm wird nicht erneut installiert." >> $LOG
-		NWM=false
+		NWM=0
 	else
 		get_time && echo "$TIMESTAMP: Networkmanager existiert nicht. Wird mitinstalliert." >> $LOG
+		NWM=1
 	fi
 	# Prüfe AppArmor
 	command -v "aa-status" >/dev/null 2 >&1
 	if [[ $? -eq 0 ]]; then
 		get_time && echo "$TIMESTAMP: AppArmor existiert bereits. Das Programm wird nicht erneut installiert." >> $LOG
-		APA=false
+		APA=0
 	else
 		get_time && echo "$TIMESTAMP: AppArmor existiert nicht. Wird mitinstalliert." >> $LOG
+		APA=1
 	fi
 	# Prüfe JQ
 	command -v "jq" >/dev/null 2 >&1
 	if [[ $? -eq 0 ]]; then
 		get_time && echo "$TIMESTAMP: JQ existiert bereits. Das Programm wird nicht erneut installiert." >> $LOG
-		JQ=false
+		JQ=0
 	else
 		get_time && echo "$TIMESTAMP: JQ existiert nicht. Wird mitinstalliert." >> $LOG
+		JQ=1
 	fi
 	# Dependencies Sanity Check...
-	if  ( [[ "$NWM" -eq 'true' ]] || [[ "$APA" -eq 'true' ]] || [[ "$JQ" -eq 'true' ]] ) && [[ "$DEPENDENCIES" -eq 'false' ]]; then
+	if  ( [[ "$NWM" -eq 1 ]] || [[ "$APA" -eq 1 ]] || [[ "$JQ" -eq 1 ]] ) && [[ "$DEPENDENCIES" -eq 0 ]]; then
 		get_time && echo "$TIMESTAMP: SANITY-CHECK ERROR! Dependencies fehlen, werden aber nicht angefordert." >> $LOG
 		get_time && echo "$TIMESTAMP: Dependencies werden entsprechend installiert." >> $LOG
-		DEPENDENCIES=true
+		DEPENDENCIES=1
 	else
-		get_time && "$TIMESTAMP: SANITY-CHECK erfolgreich." >> $LOG
+		get_time && echo "$TIMESTAMP: SANITY-CHECK erfolgreich." >> $LOG
 	fi
 	# Prüfe Home Assistant
 	get_time && echo "$TIMESTAMP: Prüfe Home Assistant" >> $LOG
 	command -v "hassio_cli" >/dev/null 2 >&1
 	if [[ $? -eq 0 ]]; then
 		get_time && echo "$TIMESTAMP: Home-Assistant existiert bereits. Programm wird nicht neu installiert." >> $LOG
-		HOMEASSISTANT=false
+		HOMEASSISTANT=0
 	else
 		get_time && echo "$TIMESTAMP: Homeassistant existiert nicht. Wird mitinstalliert." >> $LOG
 	fi
@@ -327,22 +343,22 @@ preflightcheck () {
 }
 # Funktionen für die Switch-Case der Übergabeflags.
 set_all () {
-	DOCKER=true
-	HOMEASSISTANT=true
-	UPDATE=true
-	DEPENDENCIES=true
+	DOCKER=1
+	HOMEASSISTANT=1
+	UPDATE=1
+	DEPENDENCIES=1
 	get_time && echo "$TIMESTAMP: Komplettinstallation angefordert." >>$LOG
 }
 set_docker () {
-	DOCKER=true
+	DOCKER=1
 	get_time && echo "$TIMESTAMP: Docker Installation angefordert." >> $LOG
 }
 set_homeassistant () {
-	HOMEASSISTANT=true
+	HOMEASSISTANT=1
 	get_time && echo "$TIMESTAMP: Home Assistant Installation angefordert." >> $LOG		
 }
 set_update () {
-	UPDATE=true
+	UPDATE=1
 	get_time && echo "$TIMESTAMP: Systemupdate angefordert." >> $LOG		
 }
 # Haupt-Routine
@@ -362,19 +378,19 @@ while getopts "adhu" option; do
 	esac
 done
 preflightcheck
-if [[ "$UPDATE" -eq 'true' ]]; then
+if [[ "$UPDATE" -eq 1 ]]; then
 	echo "Starte Update"
 	run_update
 fi
-if [[ "$DEPENDENCIES" -eq 'true' ]]; then
+if [[ "$DEPENDENCIES" -eq 1 ]]; then
 	echo "Installiere Dependencies"
 	install_dependencies
 fi
-if [[ "$DOCKER" -eq 'true' ]]; then
+if [[ "$DOCKER" -eq 1 ]]; then
 	echo "Installiere Docker"
 	install_docker
 fi
-if [[ "$HOMEASSISTANT" -eq 'true' ]]; then
+if [[ "$HOMEASSISTANT" -eq 1 ]]; then
 	echo "Installiere Home Assistant"
 	install_homeassistant
 fi
