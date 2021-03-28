@@ -12,4 +12,5 @@ Enthält die Projektdateien:
 Images für die einfache Einrichtung (Basierend auf Raspberry Pi OS):
  -  Raspberry Pi 4: [mediafire Download](https://www.mediafire.com/file/eujoh6s4thpg363/shz_rp4.img.gz/file)
  -  Raspberry Pi 3: [mediafire Download](https://www.mediafire.com/file/bc2o542na3rea7j/shz_rp3.img.gz/file)
+
 Kann mit [Raspberry Pi Imager](https://www.raspberrypi.org/software/) auf SD-Karte geflasht werden.
