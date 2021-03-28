@@ -6,4 +6,5 @@ Darauf laufen die gewählten Softwarelösungen
 \item Mosquitto Broker (MQTT Broker)
 \item Zigbee2mqtt (Zigbee-Schnittstelle)
 \end{itemize}
-\noindent Zur Installation der einzelnen Komponenten und für die Vorkonfiguration des Systems haben wir ein bash-Skript (vgl. \ref{ah_skript}) erstellt, dass das System entsprechend vorbereitet und die einzelnen Komponenten installiert.
+\noindent Zur Installation der einzelnen Komponenten und für die Vorkonfiguration des Systems haben wir ein bash-Skript (vgl. \ref{ah_skript}) erstellt, dass das System entsprechend vorbereitet und Home Assistant Supervised installiert.
+Wir haben uns für die oben genannte Implementierung von MQTT und Zigbee2MQTT entschieden da unsere Versuche den Mosquitto Broker sowie Zigbee2MQTT als seperate Docker Container zu installieren zwar erfolgreich waren allerdings die Ergebnisse nicht zuverlässig reproduzierbar waren. Eine Installation Beider Komponenten via Home Assistant Superviser Add-on Shop stellt eine Zuverlässige Methode dar und unterscheidet sich hinsichtlich der Funktionalität nicht.

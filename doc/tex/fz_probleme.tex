@@ -1,0 +1,11 @@
+\subsection{Fehler \& Probleme}\label{fz_fehler}
+Probleme auf die wir während dem Projekt gestoßen sind, Fehler die wir begangen haben und Anekdoten.
+\begin{itemize}
+    \item \LaTeX ist toll
+    \item Ein Leerzeichen kann über einige Stunden Arbeit entscheiden
+    \item Bei einem Test einer Iteration des Installationsskripts haben wir stundenlang nach einer Lösung gesucht, warum die Installation des Home Assistant fehlschlug, bis wir feststellten das unser Testsystem lediglich über WLAN mit unserem Netzwerk eingebunden war. 
+    Der Network-Manager während der Installation neu gestartet wodurch die WLAN Verbindung neu startet und unsere SSH Verbindung zum PI abbricht. Darüber hinaus war das Installationsskript nicht mit der langen Wiederverbindungszeit im WLAN klargekommen...
+    \item Stützstrukturen können auch mal Spaghetti produzieren
+    \item Eine Fehlentscheidung bei der Home Assistant Version hat uns fast 2 Wochen lang beschäftigt, und unsere Lösung war einfach viel zu Kompliziert und hätte sich auch nicht automatisiert durchführen lassen
+    \item Wir haben uns Stundenlang mit dem Aufsetzen von Docker images von MQTT und Zigbee2MQTT aufgehalten obwohl beides innerhalb von Home Assistant Supervised als Add-on geladen werden können
+\end{itemize}

@@ -1,0 +1,21 @@
+\subsubsection{MQTT und Zigbee2MQTT}\label{hwg_software_mqtt_zibee2mqtt}
+Um die von uns Angestrebte Steuerung und Integration von Zigbee Leuchtmitteln und Geräten zu ermöglichen, benötigen wir den Übertragungsstandard MQTT und die Möglichkeit die Zigbee Daten über diesen an Home Assistant weiter zu reichen. 
+Wir haben uns schon sehr früh auf einen MQTT broker und die Anwendung für Verarbeitung des Zigbee-Protokolls entschieden.
+\begin{itemize}
+    \item Mosquitto broker (Opensource MQTT broker)
+    \item Zigbee2MQTT als Zigbee Schnittstelle
+\end{itemize}
+\noindent Beschreibung Mosquitto broker
+\begin{quote}
+    \color{quotetext}
+ 	    Eclipse Mosquitto ist ein Open Source (EPL/EDL lizenziert) Message Broker, der das MQTT-Protokoll in den Versionen 5.0, 3.1.1 und 3.1 implementiert. Mosquitto ist leichtgewichtig und eignet sich für den Einsatz auf allen Geräten, von stromsparenden Einplatinencomputern bis hin zu kompletten Servern.
+
+        Das MQTT-Protokoll bietet eine leichtgewichtige Methode zur Durchführung von Messaging unter Verwendung eines Publish/Subscribe-Modells. Dadurch ist es für das Internet der Dinge geeignet, z. B. für Sensoren mit geringem Stromverbrauch oder mobile Geräte wie Telefone, eingebettete Computer oder Mikrocontroller.
+
+        Das Mosquitto-Projekt bietet auch eine C-Bibliothek zur Implementierung von MQTT-Clients und die sehr beliebten mosquitto-pub und mosquitto-sub Kommandozeilen-MQTT-Clients.\footnote{mosquitto.org (Übersetzt mit DeepL): \url{https://mosquitto.org/}}
+\end{quote}
+\noindent Beschreibung Zigbee2MQTT
+\begin{quote}
+    \color{quotetext}
+ 		Zigbee2MQTT besteht aus drei Modulen, die jeweils in einem eigenen Github-Projekt entwickelt wurden. Beginnend bei der Hardware (Adapter) und aufsteigend; zigbee-herdsman verbindet sich mit Ihrem Zigbee-Adapter und stellt eine API für die höheren Ebenen des Stacks zur Verfügung. Für z.B. Texas Instruments Hardware verwendet zigbee-herdsman die TI zStack Monitoring und Test API, um mit dem Adapter zu kommunizieren. Zigbee-herdsman übernimmt die zentrale Zigbee-Kommunikation. Das Modul zigbee-herdsman-converters übernimmt das Mapping von einzelnen Gerätemodellen auf die von ihnen unterstützten Zigbee-Cluster. Zigbee-Cluster sind die Schichten des Zigbee-Protokolls, die über dem Basisprotokoll liegen und z. B. definieren, wie Lampen, Sensoren und Schalter über das Zigbee-Netzwerk miteinander kommunizieren. Schließlich steuert das Zigbee2MQTT-Modul zigbee-herdsman und bildet die Zigbee-Nachrichten auf MQTT-Nachrichten ab. Zigbee2MQTT behält auch den Status des Systems im Auge. Es verwendet eine database.db-Datei, um diesen Zustand zu speichern; eine Textdatei mit einer JSON-Datenbank der angeschlossenen Geräte und ihrer Fähigkeiten.\footnote{github.com (Übersetzt mit DeepL): \url{https://github.com/koenkk/zigbee2mqtt}}
+\end{quote}
