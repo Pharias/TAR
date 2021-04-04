@@ -1,28 +1,29 @@
 \subsection{Erstellung des Betriebssystem-Image}\label{sw_image}
-Nach erfolgreichem Test des Installationsskripts\footnote{Siehe Abschnitt \ref{ah_skript}: \nameref{ah_skript}} haben wir für je einen Raspberry Pi 3 und einen Raspberry Pi 4 ein Image erstellt.
-Hierzu haben wir mit Hilfe des Raspberry Pi Imagers eine 8 Gigabyte große Micro-SD-Karte\footnote{Zum Zeitpunkt der Erstellung des Images kleinstmögliche vorhandene Micro-SD-Karte} mit Raspberry Pi OS in der 32-Bit-Variante geflasht. 
+Nach erfolgreichem Test des Installationsskripts\footnote{Siehe Abschnitt \ref{ah_skript}: \nameref{ah_skript}} haben wir für je einen Raspberry Pi 3 und einen Raspberry Pi 4 ein Image erstellt.\\
+\noindent Hierzu haben wir mit Hilfe des Raspberry Pi Imagers eine 8 Gigabyte große Micro-SD-Karte\footnote{Zum Zeitpunkt der Erstellung des Images kleinstmögliche vorhandene Micro-SD-Karte} mit Raspberry Pi OS in der 32-Bit-Variante geflasht. 
 Dieser kann über die Tastenkombination [STRG]+[SHIFT]+[X] die Grundeinstellungen wie SSH, Domänennamen und Passwort festlegen (vgl. \ref{fig:create_image_01}).
 Dementsprechend wurden für die beiden Versionen folgende Einstellungen vorgenommen:\\
 \begin{table}[H]
     \begin{tabularx}{\textwidth}{|p{3cm}|p{3cm}|p{4cm}|p{3.7cm}|}
         \hline
-        \textbf{Image-Name} & \textbf{User} & \textbf{Passwort} & \textbf{Domänename} \\
+        \textbf{Image-Name} & \textbf{User} & \textbf{Passwort} & \textbf{Domänenname} \\
         \hline
-        \verb|shz_rp3.img.gz| & pi & raspberry & shzpi3\\
         \hline
-        \verb|shz_rp4.img.gz| & pi & raspberry & shzpi4\\
+        \texttt{shz\_rp3.img.gz} & pi & raspberry & shzpi3\\
+        \hline
+        \texttt{shz\_rp4.img.gz} & pi & raspberry & shzpi4\\
         \hline
     \end{tabularx}
     \caption{Überblick über die Images für die Raspberry Pis}
     \label{tab:image_uebersicht}
 \end{table}
-\noindent Nachdem die Image auf die SD-Karte geflasht wurden, haben wir die Raspberry Pis mit den entsprechenden Karten bestückt und uns per SSH mit den Geräten verbunden.\\
-\noindent Mit Hilfe des Shell-Befehls
-\mint{bat}|ssh pi@<Domänenname>|
-\noindent und der Verwendung des Standardpasswords haben wir uns mit den Raspberry Pis verbunden (vgl. Tab. \ref{tab:image_uebersicht}: \nameref{tab:image_uebersicht}.
-Anschließend haben wir das Skript auf dem Pi eingerichtet und gestartet (vgl. \ref{fig:create_image_02}).
-Nachdem das Skript ausgeführt wurde (vgl. \ref{fig:create_image_03}) wurde die SD-Karte mit Win32 Disk Imager in eine .img-Datei konvertiert (vgl. \ref{fig:create_image_04}).
-Anschließend wurde die Image mit 7Zip komprimiert, um Speicherplatz zu sparen (vgl. \ref{fig:create_image_05}). Diese Images können dann mit dem Raspberry Pi Imager\footnote{Alternative: balnea Etcher} wieder auf SD-Karten geflasht werden.\\
+\noindent Nachdem das Image auf die SD-Karte geflasht wurden, haben wir die Raspberry Pis mit den entsprechenden Karten bestückt und uns per SSH mit den Geräten verbunden.\\
+\noindent Der Shell-Befehl hierfür lautet:
+\mint{bat}|ssh pi@<Domänenname>|.
+\noindent Mit der Verwendung des Standardpassworts haben wir uns mit den Raspberry Pis verbunden (vgl. Tab. \ref{tab:image_uebersicht}: \nameref{tab:image_uebersicht}).\\
+\noindent Anschließend haben wir das Skript auf dem Pi eingerichtet und gestartet (vgl. \ref{fig:create_image_02}).
+Nach der Ausführung des Skriptes (vgl. \ref{fig:create_image_03}) wurde die SD-Karte mit Win32 Disk Imager in eine .img-Datei konvertiert (vgl. \ref{fig:create_image_04}).
+Anschließend wurde das Image mit 7Zip komprimiert, um Speicherplatz zu sparen (vgl. \ref{fig:create_image_05}). Diese Images können dann mit dem Raspberry Pi Imager\footnote{Alternative: balnea Etcher} wieder auf SD-Karten geflasht werden.\\
 \noindent Die Images\footnote{Stand: Ende März 2021} können über folgende Links heruntergeladen werden:
 \begin{itemize}
     \item Raspberry Pi 3 Image: \url{https://www.mediafire.com/file/bc2o542na3rea7j/shz_rp3.img.gz/file}

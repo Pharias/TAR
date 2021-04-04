@@ -1,27 +1,30 @@
 \subsubsection{Home Assistant}\label{hwg_software_homeassistant}
-Auf der Softwareseite haben wir uns bereits verfügbare Lösungen für Smart Home Zentralen angeschaut. 
-Ursprünglich war unser Plan, eine eigene Softwarelösung mit Web-Interface oder einer App-Anbindung für Smartphones selbst zu programmieren.\\
-\noindent Diese Idee haben wir nach kurzer Zeit aber wieder verworfen, da dieser Markt bereits mehr als gesättigt ist mit kostenlosen als auch kostenpflichtigen Lösungen. 
-Von den kostenlosen und quelloffenen Lösungen war für uns Home Assistant am interessantesten, vor allem wegen der breiten Menge an Addons und der unserer Meinung nach recht ansprechenden Web-Oberfläche.
+Im Bereich Software haben wir uns bereits verfügbare Lösungen für Smart Home Zentralen angeschaut. 
+Ursprünglich war unser Plan, eine eigene Softwarelösung mit Web-Interface oder einer App-Anbindung für Smartphones zu programmieren.\\
+\noindent Diese Idee haben wir nach kurzer Zeit aber wieder verworfen, da dieser Markt sowohl mit kostenlosen als auch kostenpflichtigen Lösungen mehr als gesättigt ist. 
+Von den kostenlosen und quelloffenen Lösungen war für uns Home Assistant am interessantesten.
+Vor allem wegen der großen Menge an Erweitrungsmöglichkeiten und der unserer Meinung nach recht ansprechenden Web-Oberfläche.
 Home Assistant verfügt über drei grundlegende Möglichkeiten, installiert zu werden:
 \begin{itemize}
-    \item Als eigenes Betriebssystem-Image (Home Assistant Operating System)
-    \item Als Docker Container
-    \item Als Programm auf einem Server
+    \item als eigenes Betriebssystem-Image (Home Assistant Operating System)
+    \item als Docker Container
+    \item als Programm auf einem Server.
 \end{itemize}
 Unabhängig von der Installationsart wird der Home Assistant in zwei Versionen angeboten:
 \begin{itemize}
-    \item Als Core Version
-    \item Als Supervised Version
+    \item als Core Version
+    \item als Supervised Version.
 \end{itemize}
-Die Core Version ist die grundlegende Version des Home Assistants während die Supervised Version ein Addon-Repository integriert hat. \footnote{siehe \url{https://www.home-assistant.io/installation/}}\\
-\noindent Darüber hinaus vertreibt Home Assistant auch noch eine fertige Out-of-the-Box-Lösung namens Home Assistant Blue\footnote{siehe \url{https://www.home-assistant.io/blue}} für 140\$, allerdings gibt es nur wenige Länder, in denen das Gerät verfügbar ist und es besitzt anders als unsere Lösung keinen Bildschirm.\\
+Die Core Version ist die einfache Basisversion des Home Assistants, während die Supervised Version ein Addon-Repository integriert. \footnote{siehe \url{https://www.home-assistant.io/installation/}}\\
+\noindent Zusätzlich vertreibt Home Assistant auch noch eine fertige Out-of-the-Box-Lösung namens Home Assistant Blue\footnote{siehe \url{https://www.home-assistant.io/blue}} für 140\$ , allerdings gibt es nur wenige Länder, in denen das Gerät verfügbar ist und es besitzt anders als unsere Lösung integrierten keinen Bildschirm.\\
 \noindent Für unsere Anwendung war das eigene Betriebssystem-Image nicht verwendbar, da sich auf dem System keine grafische Oberfläche nachinstallieren ließ. 
-Deshalb haben wir uns zuerst auf die Programm-Variante des Home Assistants entschieden.\\
-\noindent Allerdings gab es bei der Installation der Supervised Version auf unterschiedlichen Pi-Versionen Probleme und die Core-Version war für unsere Zwecke ungeeignet, da hier der Arbeitsaufwand für die die Integration von zusätzlichen Komponenten und Systemerweiterungen für die Zielgruppe des Projekts zu komplex ist. 
-Außerdem hat sich während unserer Testphase gezeigt das die Verknüpfung von Home Assistant Core, Mosquitto Broker sowie Zigbee2MQTT zu nicht dauerhaft reproduzierbaren Erfolgen führt und sich deshalb leider nicht wie von uns geplant automatisieren lässt. 
+Aus diesem Grund haben wir uns für zuerst die Programm-Variante des Home Assistants entschieden.\\
+\noindent Allerdings gab es bei der Installation der Supervised Version auf unterschiedlichen Versionen des Raspberry Pis Probleme.
+Die Core-Version war für unsere Zwecke ungeeignet, da der Arbeitsaufwand für die Integration von zusätzlichen Komponenten und Systemerweiterungen für die Zielgruppe des Projekts zu komplex wäre. \\
+\noindent Während unserer Testphase hat sich gezeigt, dass die Verknüpfung von Home Assistant Core, Mosquitto Broker sowie Zigbee2MQTT nicht zu dauerhaft reproduzierbaren Erfolgen geführt hat und sich deshalb nicht wie von uns geplant automatisieren ließ. 
 Deshalb haben wir uns für die Container-Variante mit Docker entschieden. 
-Das Installationsskript (vgl. \ref{ah_skript}: \nameref{ah_skript}) installiert die benötigten Programme und übernimmt die Grundeinrichtung des Homeassistants bis zum Punkt an dem die Einrichtung in der Weboberfläche durch den Nutzer stattfindet.\\
-\noindent Um neben dem Skript noch eine weitere Art der Einrichtungsmöglichkeit anzubieten zu können, haben wir von den SD-Karten nach Ablauf des Installationsskripts ein Backup-Image erstellt und dieses entsprechend der beiden in Verwendung befindlichen Raspberry Pi Versionen\footnote{Raspberry Pi B Version 3 und Version 4(8GB)} erstellt.
-Der Benutzer und das Passwort entsprechen bei den Images den standardmäßig in Raspberry Pi OS hinterlegten Nutzern und sollten beim booten sicherheitshalber geändert werden\\
-\noindent Näheres zur Herangehensweise im Kapitel \ref{software}: \nameref{software}.
+Das Installationsskript (vgl. \ref{ah_skript}: \nameref{ah_skript}) installiert die benötigten Programme und übernimmt die Grundeinrichtung des Home Assistants bis zu dem Punkt, an dem die Einrichtung über die Weboberfläche durch den Nutzer erfolgt.\\
+\noindent Um neben dem Skript noch eine weitere Art der Installation zu ermöglichen, bieten wir die Möglichkeit der Nutzung eines Images.
+Für die beiden in Verwendung befindlichen Raspberry Pi Versionen\footnote{Raspberry Pi B Version 3 und Version 4(8GB)} haben wir entspechend nach Ablauf des Installationsskripts ein Backup-Image erzeugt.
+Der Benutzername und das Passwort entsprechen bei den Images den standardmäßig in Raspberry Pi OS hinterlegten Nutzern und sollten beim booten sicherheitshalber geändert werden.\\
+\noindent Nähere Informationen hierzu im Kapitel \ref{software}: \nameref{software}.

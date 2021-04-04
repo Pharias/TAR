@@ -1,11 +1,15 @@
 \subsection{Fehler \& Probleme}\label{fz_fehler}
 Probleme auf die wir während dem Projekt gestoßen sind, Fehler die wir begangen haben und Anekdoten.
 \begin{itemize}
-    \item \LaTeX ist toll
+    \item \LaTeX   ist toll
     \item Ein Leerzeichen kann über einige Stunden Arbeit entscheiden
-    \item Bei einem Test einer Iteration des Installationsskripts haben wir stundenlang nach einer Lösung gesucht, warum die Installation des Home Assistant fehlschlug, bis wir feststellten das unser Testsystem lediglich über WLAN mit unserem Netzwerk eingebunden war. 
-    Der Network-Manager während der Installation neu gestartet wodurch die WLAN Verbindung neu startet und unsere SSH Verbindung zum PI abbricht. Darüber hinaus war das Installationsskript nicht mit der langen Wiederverbindungszeit im WLAN klargekommen...
+    \item Bei einem Test einer Version des Installationsskripts haben wir stundenlang nach einer Lösung gesucht, warum die Installation des Home Assistant fehlschlug, bis wir feststellten, dass unser Testsystem lediglich über WLAN mit unserem Netzwerk vergebunden war. 
+    Der Network-Manager aber während der Installation neu gestartet wurde, wodurch die WLAN Verbindung neu startete und unsere SSH Verbindung zum PI abbrach. Darüber hinaus war das Installationsskript nicht mit der langen Wiederverbindungszeit im WLAN klargekommen.
     \item Stützstrukturen können auch mal Spaghetti produzieren
-    \item Eine Fehlentscheidung bei der Home Assistant Version hat uns fast 2 Wochen lang beschäftigt, und unsere Lösung war einfach viel zu Kompliziert und hätte sich auch nicht automatisiert durchführen lassen
-    \item Wir haben uns Stundenlang mit dem Aufsetzen von Docker images von MQTT und Zigbee2MQTT aufgehalten obwohl beides innerhalb von Home Assistant Supervised als Add-on geladen werden können
+    \item Da wir uns auch als Ziel gesetzt haben, auf einem Raspberry Pi sowohl Desktop Umgebung als auch Home Assistant zu installieren, disqualifizierte sich von Anfang an das Home Assistant OS Image. Es gab für uns also keine andere Möglichkeit, als Home Assistant auf unserem Raspberry Pi nachzuinstallieren. 
+    Nach einigen Fehlschlägen in der Einrichtung von Home Assistant Core, Mosquitto broker und Zigbee2MQTT entschieden wir uns zunächst für eine Installation der Komponenten in Docker Containern. 
+    Als wir aber auch hier auf nicht durchgehend reproduzierbare Erfolge stießen und zeitgleich auch eine Integration des Home Assistant Supervisor anstrebten, fiel unsere finale Wahl auf die Installation des Home Assistant Supervised Docker Container, der von Home Assistant für Fortgeschrittene Nutzer über GitHub angeboten wird. 
+    Dies ermöglichte uns die Nutzung der offizellen MQTT und Zigbee2MQTT Add-ons. 
+    Um dennoch unser Ziel einer vereinfachten Installation erfüllen zu können, schrieben wir ein Installationsskript, welches benötigte Programme und Konfigurationen automatisch installiert.
+    Außerdem erstellten wir zwei fertige Images, die ein Neuaufsetzen des Betriebssystems mit vorinstallierten Home Assistant Supervised Containers deutlich beschleunigen.  
 \end{itemize}

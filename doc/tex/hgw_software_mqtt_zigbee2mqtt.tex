@@ -1,21 +1,28 @@
 \subsubsection{MQTT und Zigbee2MQTT}\label{hwg_software_mqtt_zibee2mqtt}
-Um die von uns Angestrebte Steuerung und Integration von Zigbee Leuchtmitteln und Geräten zu ermöglichen, benötigen wir den Übertragungsstandard MQTT und die Möglichkeit die Zigbee Daten über diesen an Home Assistant weiter zu reichen. 
-Wir haben uns schon sehr früh auf einen MQTT broker und die Anwendung für Verarbeitung des Zigbee-Protokolls entschieden.
+Um mit Zigbee die von uns angestrebte Steuerung und Integration von Leuchtmitteln und Geräten zu ermöglichen, benötigen wir den Übertragungsstandard MQTT. Dieser bietet die Möglichkeit, die Zigbee-Daten an den Home Assistant weiter zu reichen.
+%Um die von uns angestrebte Steuerung und Integration mit Zigbee-Leuchtmitteln und -Geräten zu ermöglichen, benötigen wir den Übertragungsstandard MQTT und die Möglichkeit die Zigbee Daten über diesen an Home Assistant weiter zu reichen. 
+Wir haben uns schon frühzeitig auf den Mosquitto Broker zur Verarbeitung des Zigbee-Protokolls entschieden.
 \begin{itemize}
     \item Mosquitto broker (Opensource MQTT broker)
     \item Zigbee2MQTT als Zigbee Schnittstelle
 \end{itemize}
-\noindent Beschreibung Mosquitto broker
+\noindent \paragraph{Beschreibung MQTT}
 \begin{quote}
     \color{quotetext}
- 	    Eclipse Mosquitto ist ein Open Source (EPL/EDL lizenziert) Message Broker, der das MQTT-Protokoll in den Versionen 5.0, 3.1.1 und 3.1 implementiert. Mosquitto ist leichtgewichtig und eignet sich für den Einsatz auf allen Geräten, von stromsparenden Einplatinencomputern bis hin zu kompletten Servern.
-
-        Das MQTT-Protokoll bietet eine leichtgewichtige Methode zur Durchführung von Messaging unter Verwendung eines Publish/Subscribe-Modells. Dadurch ist es für das Internet der Dinge geeignet, z. B. für Sensoren mit geringem Stromverbrauch oder mobile Geräte wie Telefone, eingebettete Computer oder Mikrocontroller.
-
-        Das Mosquitto-Projekt bietet auch eine C-Bibliothek zur Implementierung von MQTT-Clients und die sehr beliebten mosquitto-pub und mosquitto-sub Kommandozeilen-MQTT-Clients.\footnote{mosquitto.org (Übersetzt mit DeepL): \url{https://mosquitto.org/}}
+    MQTT is an OASIS standard for IoT connectivity. It is a publish/subscribe, extremely simple and lightweight messaging protocol, designed for constrained devices and low-bandwidth, high-latency or unreliable networks. The design principles are to minimise network bandwidth and device resource requirements whilst also attempting to ensure reliability and some degree of assurance of delivery. These principles also turn out to make the protocol ideal of the “Internet of Things” world of connected devices, and for mobile applications where bandwidth and battery power are at a premium.\footnote{MQTT.org (2021): What is MQTT}
 \end{quote}
-\noindent Beschreibung Zigbee2MQTT
+\noindent \paragraph{Beschreibung Mosquitto Broker}
 \begin{quote}
     \color{quotetext}
- 		Zigbee2MQTT besteht aus drei Modulen, die jeweils in einem eigenen Github-Projekt entwickelt wurden. Beginnend bei der Hardware (Adapter) und aufsteigend; zigbee-herdsman verbindet sich mit Ihrem Zigbee-Adapter und stellt eine API für die höheren Ebenen des Stacks zur Verfügung. Für z.B. Texas Instruments Hardware verwendet zigbee-herdsman die TI zStack Monitoring und Test API, um mit dem Adapter zu kommunizieren. Zigbee-herdsman übernimmt die zentrale Zigbee-Kommunikation. Das Modul zigbee-herdsman-converters übernimmt das Mapping von einzelnen Gerätemodellen auf die von ihnen unterstützten Zigbee-Cluster. Zigbee-Cluster sind die Schichten des Zigbee-Protokolls, die über dem Basisprotokoll liegen und z. B. definieren, wie Lampen, Sensoren und Schalter über das Zigbee-Netzwerk miteinander kommunizieren. Schließlich steuert das Zigbee2MQTT-Modul zigbee-herdsman und bildet die Zigbee-Nachrichten auf MQTT-Nachrichten ab. Zigbee2MQTT behält auch den Status des Systems im Auge. Es verwendet eine database.db-Datei, um diesen Zustand zu speichern; eine Textdatei mit einer JSON-Datenbank der angeschlossenen Geräte und ihrer Fähigkeiten.\footnote{github.com (Übersetzt mit DeepL): \url{https://github.com/koenkk/zigbee2mqtt}}
+ 	    Eclipse Mosquitto is an open source (EPL/EDL licensed) message broker that implements the MQTT protocol versions 5.0, 3.1.1 and 3.1. Mosquitto is lightweight and is suitable for use on all devices from low power single board computers to full servers.
+
+        The MQTT protocol provides a lightweight method of carrying out messaging using a publish/subscribe model. This makes it suitable for Internet of Things messaging such as with low power sensors or mobile devices such as phones, embedded computers or microcontrollers.
+
+        The Mosquitto project also provides a C library for implementing MQTT clients, and the very popular mosquitto-pub and mosquitto-sub command line MQTT clients.\footnote{mosquitto.org (2021): Eclipse Mosquitto$^{TM}$ An open source MQTT broker}
 \end{quote}
+\newpage
+\noindent \paragraph{Beschreibung Zigbee2MQTT}
+\begin{quote}
+    \color{quotetext}
+ 		Zigbee2MQTT is made up of three modules, each developed in its own Github project. Starting from the hardware (adapter) and moving up; zigbee-herdsman connects to your Zigbee adapter an makes an API available to the higher levels of the stack. For e.g. Texas Instruments hardware, zigbee-herdsman uses the TI zStack monitoring and test API to communicate with the adapter. Zigbee-herdsman handles the core Zigbee communication. The module zigbee-herdsman-converters handles the mapping from individual device models to the Zigbee clusters they support. Zigbee clusters are the layers of the Zigbee protocol on top of the base protocol that define things like how lights, sensors and switches talk to each other over the Zigbee network. Finally, the Zigbee2MQTT module drives zigbee-herdsman and maps the zigbee messages to MQTT messages. Zigbee2MQTT also keeps track of the state of the system. It uses a database.db file to store this state; a text file with a JSON database of connected devices and their capabilities.\footnote{Koen Kanters (2021): Zigbee2MQTT}
+\end{quote} 

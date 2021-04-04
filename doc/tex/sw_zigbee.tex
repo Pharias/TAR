@@ -1,7 +1,17 @@
 \subsection{Zigbee2MQTT}
-Um das Offizielle Zigbee2MQTT Home Assistant Add-on nutzen zu können müssen wir zunächst im Supervisor Add-on Shop(vgl. Abb, \ref{fig:ha14}: \nameref{fig:ha14}) das Repository\footnote{GITHUB: \url{https://github.com/zigbee2mqtt/hassio-zigbee2mqtt}} hinzufügen. Hierdurch erhalten wir die möglichkeit das Add-on auf unserem Home Assistant zNachdem das Geschehen ist können wir das Add-on Zigbee2MQTT installieren und starten. An diesem Punkt starten wir das System neu um alle neu installierten Erweiterungen neu zu laden.
-Um eine Korrekte Konfiguration zu ermöglichen öffnen wir innerhalb des Zigbee2MQTT Add-on's den Reiter Konfiguration. Hier sehen wir die Inhalte der configuration.yaml Datei (vgl. Anhang \ref{ah_yaml_ha_configuration}: \nameref{ah_yaml_ha_configuration})
-
+Um das offizielle Zigbee2MQTT Home Assistant Add-on nutzen zu können, müssen wir zunächst im Supervisor Add-on Shop (vgl. Abb. \ref{fig:ha14}: \nameref{fig:ha14}) das Repository\footnote{GITHUB: \url{https://github.com/zigbee2mqtt/hassio-zigbee2mqtt}} hinzufügen. 
+Hierdurch erhalten wir die Möglichkeit, das Add-on auf unserem Home Assistant zu installieren. 
+Nachdem das geschehen ist, können wir das Add-on Zigbee2MQTT installieren (vgl. Abb. \ref{fig:ha16}: \nameref{fig:ha16}). 
+An diesem Punkt bietet sich uns die Möglichkeit, die Zigbee2MQTT ,,configuration.yaml'' einzusehen (vgl. Abb. \ref{fig:ha18}: \nameref{fig:ha18} und Anhang \ref{ah_yaml_ha_configuration}: \nameref{ah_yaml_ha_configuration}).\\
+\noindent Hier ist darauf zu achten, dass der Parameter von ,,permit-join'' lediglich für das Einlernen von neuen Zigbee-Geräten auf ,,true'' gesetzt wird.
+Um einen sauberen ersten Start von Zigbee2MQTT gewährleisten zu können, muss nun noch der ,,Serial Port'' des Zigbee Adapters überprüft werden. 
+Zu diesem Zweck navigieren wir über ,,Supervisor'' (vgl. Abb. \ref{fig:ha19}: \nameref{fig:ha19}) zu ,,System'' (vgl. Abb. \ref{fig:ha19}: \nameref{fig:ha19}) und dort unter ,,Host'' zu ,,Hardware''. 
+In diesem Fenster sehen wir sämtliche Hardware, die mit dem Host-System, also in unserem Fall dem Raspberry Pi, verbunden ist (vgl. Abb. \ref{fig:ha19}: \nameref{fig:ha19}). \\
+\noindent Nachdem sicher gestellt ist, dass der ,,Serial Port'' mit dem tatsächlichen Port übereinstimmt, können wir das Add-on starten (vgl. Abb. \ref{fig:ha17}: \nameref{fig:ha17}). \\
+\noindent Das Einlernen von neuen Leuchtmitteln und Geräten gestaltet sich, sofern die Datei ,,configuration.yaml'' (s. Anhang \ref{ah_yaml_devices}: \nameref{ah_yaml_devices}) beachtet wurde, deutlich einfacher.
+Zuerst muss das Leuchtmittel oder Gerät nach Herstellerangabe zurückgesetzt werden. 
+Danach wird das Gerät automatisch von Zigbee2MQTT erfasst und eingelernt.
+Eingelernte Geräte werden in der Datei ,,devices.yaml'' (vgl. \ref{ah_yaml_devices}: \nameref{ah_yaml_devices}) gespeichert und sind dadurch als Entitäten in Home Assistant steuerbar.
 \begin{figure}[H]
     \begin{subfigure}{.5\linewidth}
         \includegraphics[width=1\textwidth]{img/HA18.png}
@@ -15,7 +25,7 @@ Um eine Korrekte Konfiguration zu ermöglichen öffnen wir innerhalb des Zigbee2
 %    \end{subfigure}
     \begin{subfigure}{.5\linewidth}
         \includegraphics[width=1\textwidth]{img/HA20.png}
-        \caption{Zigbee2MQTT add-on seite }
+        \caption{Zigbee2MQTT Add-on Seite}
         \label{fig:ha16}
     \end{subfigure}
     \begin{subfigure}{.5\linewidth}
@@ -35,7 +45,7 @@ Um eine Korrekte Konfiguration zu ermöglichen öffnen wir innerhalb des Zigbee2
     \end{subfigure}
     \begin{subfigure}{.5\linewidth}
         \includegraphics[width=1\textwidth]{img/HA21.png}
-        \caption{Aktiviertes Zigbee2MQTT add-on}
+        \caption{Aktiviertes Zigbee2MQTT Add-on}
         \label{fig:ha17}
     \end{subfigure}
 \end{figure}

@@ -1,19 +1,22 @@
 \subsection{Installationsskript}\label{sw_install}
-Das Installationsskript (vgl. \ref{ah_skript}) dient dazu, die im Projekt verwendeten Softwarekomponenten möglichst ohne großen Aufwand und mit so wenig Nutzereingaben wie möglich zu installieren und einzurichten. 
-Da auf den Raspberry Pis das Debian-Derivat Raspberry Pi OS läuft, handelt es sich beim Installationsskript um ein BASH-Skript.\\
-\noindent Da das Installationsskript des Home Assistant Supervisors viele Ausgaben sowie eine nicht mit einem Parameter automatisierbare Abfrage besitzt, haben wir das Skript in unser Installationsskript kopiert und die Abfrage entsprechend überbrückt und die Ausgaben in die von unserem Skript genutzte Log-Datei umgeleitet.
-Dadurch bekommt der Nutzer im Idealfall lediglich kurze Statusmeldungen über den aktuellen Stand und bei Abschluss der Installation die Erfolgsmeldung.
-Die einzelnen Aufgaben, die das Installationsskript durchführt, wurden in eigene Funktionen ausgegliedert. Dadurch lassen sich am Skript selbst schneller Änderungen durchführen. 
-Dabei erkennt das Skript über Operatoren, welche Schritte durchgeführt werden sollen und kann so auf neu aufgesetzten als auch auf bereits länger im Benutzung befindlichen Raspberry Pis ausgeführt werden.
-So besteht die Möglichkeit, beispielsweise die Installation von Docker oder dem Systemupdate nicht zu wählen (vgl. \ref{ah_skript} Zeile 34 ff).
-Gibt der Nutzer keinen Operanten oder einen ungültigen Operanten an, wird ein Hilfetext mit der Funktion \texttt{show\_help} (\ref{ah_skript} Zeile 34ff) ausgegeben, der den Nutzer über die Operatoren sowie eine allgemeine Verwendung des Skripts informiert.\\
-\noindent Möchte der Nutzer das komplette Smart Home Zentralen Paket selbst installieren, ist der Operand -a an den Befehl \texttt{./sh\_install} anzuhängen. Dadurch wird die Installation vollständig durchgeführt, das heißt, dass ein Systemupdate durchgeführt wird, die Abhängigkeiten Network Manager, AppArmor und JQ, sowie Docker und der Docker-Container Home Assistant Supervised für Raspberry Pi installiert werden.\\
-\noindent Möchte der Nutzer die Installation ohne die Ausführung eines vorhergehenden Systemupdates und ohne die Installation von Docker durchführen, kann er das Skript mit dem Operand -h starten, was lediglich den Home Assistant Supervised nach dem offiziellen Skript für die Installation \footnote{GITHUB: supervised-installer \url{https://github.com/home-assistant/supervised-installer}} durchführt.\\ 
-\noindent Ob die Abhängigkeiten vorhanden sind, wird bei der Installation unabhängig von der Nutzereingabe geprüft und gegebenenfalls bei Fehlen nachinstalliert (\ref{ah_skript} Zeile 85ff \& \ref{ah_skript} Zeile 297ff).\\
-\noindent Sollte Das Skript, ohne das Docker auf dem Raspberry Pi installiert ist, ausgeführt werden und nur die Installation des Home Assistant Supervised angefordert werden, wird Docker mit installiert (\ref{ah_skript} Zeile 284ff).
+Das Installationsskript (s. Anhang \ref{ah_skript}: \nameref{ah_skript}) dient dazu, die im Projekt verwendeten Softwarekomponenten möglichst ohne großen Aufwand und mit so wenig Nutzereingaben wie möglich zu installieren und einzurichten. 
+Da auf den Raspberry Pis das Debian-Derivat Raspberry Pi OS läuft, handelt es sich beim Installationsskript um ein Bash-Skript.\\
+\noindent Das Installationsskript des Home Assistant Supervisors verfügt über viele Ausgaben, sowie eine nicht mit einem Parameter automatisierbare Abfrage.
+Aus diesem Grund haben wir das Skript in unser Installationsskript kopiert, die Abfrage entsprechend überbrückt und die Ausgaben in die von unserem Skript genutzte Log-Datei umgeleitet.
+Dadurch bekommt der Nutzer im Idealfall lediglich kurze Statusmeldungen über den aktuellen Stand und bei Abschluss der Installation eine Erfolgsmeldung.\\
+\noindent Die einzelnen Aufgaben, die das Installationsskript durchführt, wurden in eigene Funktionen ausgegliedert. 
+Dadurch lassen sich am Skript selbst schneller Änderungen durchführen. 
+Das Skript erkennt dabei über Operatoren, welche Schritte durchgeführt werden sollen und kann so auf neu aufgesetzten als auch auf bereits länger im Benutzung befindlichen Raspberry Pis ausgeführt werden.\\
+\noindent So besteht die Möglichkeit, beispielsweise die Installation von Docker oder dem Systemupdate abzulehnen (vgl. \ref{ah_skript}: \nameref{ah_skript} Zeile 34 ff).
+Gibt der Nutzer keinen Operanden oder einen ungültigen Operanden an, wird ein Hilfetext mit der Funktion \texttt{show\_help} (vgl. \ref{ah_skript}: \nameref{ah_skript} Zeile 34ff) ausgegeben, der den Nutzer über die Operatoren, sowie eine allgemeine Verwendung des Skripts informiert.\\
+\noindent Möchte der Nutzer das komplette Smart Home Zentralen Paket selbst installieren, ist der Operand \texttt{-a} an den Befehl \texttt{./sh\_install} anzuhängen. 
+Dadurch wird die Installation vollständig durchgeführt, das heißt, dass ein Systemupdate durchgeführt wird, die Abhängigkeiten Network Manager, AppArmor und JQ, sowie Docker und der Docker-Container Home Assistant Supervised für Raspberry Pi installiert werden.\\
+\noindent Möchte der Nutzer die Installation ohne die Ausführung eines vorhergehenden Systemupdates und ohne die Installation von Docker durchführen, kann er das Skript mit dem Operand \texttt{-h} starten, was lediglich den Home Assistant Supervised nach dem offiziellen Skript für die Installation \footnote{GITHUB: supervised-installer \url{https://github.com/home-assistant/supervised-installer}} durchführt.\\ 
+\noindent Ob die oben genannten Abhängigkeiten vorhanden sind, wird bei der Installation unabhängig von der Nutzereingabe geprüft und gegebenenfalls bei Fehlen dieser nachinstalliert (vgl. \ref{ah_skript}: \nameref{ah_skript} Zeile 85ff \& \ref{ah_skript} Zeile 297ff: \nameref{ah_skript}).\\
+\noindent Sollte das Skript ausgeführt werden, ohne das Docker auf dem Raspberry Pi installiert ist und nur die Installation des Home Assistant Supervised angefordert wird, wird Docker mit installiert (vgl. \ref{ah_skript} Zeile 284ff: \nameref{ah_skript}).
 Diese und andere Fehlervermeidungen übernimmt die Funktion \texttt{preflightcheck}, die eventuell vom Nutzer falsch gesetzte Parameter sauber setzt.
-Die Installation erfolgt weitestgehend über den internen Paketmanager apt\footnote{Für das Systemupdate und die Installation der Abhängigkeiten.}.
-Für Docker wird allerdings ein Skript von docker.com heruntergeladen und ausgeführt (vgl. Abschnitt \ref{ah_skript}: \nameref{ah_skript} Zeile 108ff).
+Die Installation erfolgt weitestgehend über den internen Paketmanager apt\footnote{Für das Systemupdate und die Installation der Abhängigkeiten.}.\\
+\noindent Für Docker wird ein Skript von docker.com heruntergeladen und ausgeführt (vgl. \ref{ah_skript}: \nameref{ah_skript} Zeile 108ff).
 Der Abschnitt der Home Assistant Installation basiert auf dem Bash-Skript von Home Assistant selbst\footnote{GITHUB: installer.sh \url{https://github.com/home-assistant/supervised-installer/blob/master/installer.sh}}, wir haben aber die Terminal-Ausgaben des Skripts in unsere Log-Datei umgeleitet und die Abfrage zur Neukonfiguration des Network-Managers unterdrückt.
 Lediglich die Ausgaben des Docker-Installationsskripts erscheinen nun noch zusätzlich zu den Statusmeldungen unseres Skripts auf dem Bildschirm.\\
 \newpage
@@ -23,6 +26,7 @@ Lediglich die Ausgaben des Docker-Installationsskripts erscheinen nun noch zusä
  	\hline 
  	\textbf{Funkion} & \textbf{Kurzbeschreibung} & \textbf{Zeile} \\ 
  	\hline 
+ 	\hline
  	\texttt{show\_help} & Anzeige der Hilfe im Terminal. & 34 \\ 
  	\hline 
  	\texttt{get\_time} & Aktualisiert die Variable ,,TIMESTAMP''. & 56 \\ 
@@ -35,7 +39,7 @@ Lediglich die Ausgaben des Docker-Installationsskripts erscheinen nun noch zusä
  	\hline 
  	\texttt{install\_docker} & Lädt das Installationsskript von Docker herunter und führt dieses aus. & 105 \\ 
  	\hline
- 	\texttt{install\_homeassistant} & Führt Systemvorbereitung und die Installation von Homeassistand durch. & 125 \\
+ 	\texttt{install\_homeassistant} & Führt Systemvorbereitung und die Installation von Home Assistant durch. & 125 \\
  	\hline
  	\texttt{preflightcheck} & Überprüft das System, ob die Abhängigkeiten installiert sind und ob Docker oder Home Assistant bereits installiert sind. & 277 \\ 
  	\hline

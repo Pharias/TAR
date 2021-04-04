@@ -1,13 +1,12 @@
 \subsubsection{Modellentwicklung am Objekt}\label{hw_case_modellentwicklung}
-\paragraph{Grundskizze}
-\noindent Nachdem das Testmodell (vgl. Abb. \ref{fig:print-case-test_04}: \nameref{fig:print-case-test_04}) nicht zu 100 \% gepasst hat, haben wir die Abmessungen neu geklärt und diese in Fusion 360 übertragen (vgl. Abb. \ref{fig:case_footprint}: \nameref{fig:case_footprint}). 
-Um Material für den 3D-Druck zu sparen, haben wir die Zeichnung dann im Maßstab 1:1 auf Papier gedruckt, ausgeschnitten und angelegt.\par
-\noindent Da hier einige Maße immer noch nicht gestimmt haben, haben wir den Plan überarbeitet (vgl. Abb. \ref{fig:case_footprint_final}: \nameref{fig:case_footprint_final}). 
-Die so entstandenen Bemaßungen waren dann korrekt.\\
-\noindent Daraufhin wurde dann die Zeichnung in zwei eigenständige Dateien gesplittet, um die linke und die rechte Seite des Gehäuses zu konstruieren.\par
-\noindent Die Grundabmessung des Bildschirms werden in Fusion 360 als neue Zeichnung angelegt. 
-Hierzu haben wir ein einfaches Rechteck mit den entsprechenden Außenmaßen gezeichnet (vlg. Abb. \ref{fig:design-case-01}: \nameref{fig:design-case-01}). 
-Anschließend haben wir die Ecken mit einem Radius von 7mm abgerundet (vgl. Abb. \ref{fig:design-case-02}: \nameref{fig:design-case-02}) und die Zeichnung dann in der Mitte geteilt, um die beiden Hälften des Gehäuses unabhängig von einander konstruieren zu können.\par
+\paragraph{Grundskizze}\\
+\noindent Nachdem das Testmodell (vgl. Abb. \ref{fig:print-case-test_04}: \nameref{fig:print-case-test_04}) nicht zu 100 \% gepasst hat, haben wir die Abmessungen neu erfasst und diese in Fusion 360 übertragen (vgl. Abb. \ref{fig:case_footprint}: \nameref{fig:case_footprint}). 
+Um Material für den 3D-Druck zu sparen, haben wir eine Papierschablone erstellt, die Zeichnung dann im Maßstab 1:1 auf Papier ausgedruckt, ausgeschnitten und am Bildschirm angelegt.\par
+\noindent So haben wir die Maße angepasst und den Plan entsprechend ergänzt(vgl. Abb. \ref{fig:case_footprint_final}: \nameref{fig:case_footprint_final}).\\
+\noindent Die Zeichnung haben wir in zwei eigenständige Dateien gesplittet, um die linke und die rechte Seite des Gehäuses konstruieren zu können.\par
+\noindent Die Grundabmessung des Bildschirms haben wir in Fusion 360 als neue Zeichnung angelegt. 
+Hierzu haben wir ein einfaches Rechteck mit den entsprechenden Außenmaßen gezeichnet (vlg. Abb. \ref{fig:design-case-01}: \nameref{fig:design-case-01}) und anschließend die Ecken mit einem Radius von 7 mm abgerundet (vgl. Abb. \ref{fig:design-case-02}: \nameref{fig:design-case-02}). 
+Die Zeichnung haben wir in der Mitte geteilt, um die beiden Hälften des Gehäuses unabhängig von einander konstruieren zu können.\par
 \begin{figure}[H]
 	\begin{subfigure}[b]{.5\linewidth}
 		\includegraphics[width=1\textwidth]{img/konstruktion_gehaeuse_001.png}
@@ -27,16 +26,17 @@ Anschließend haben wir die Ecken mit einem Radius von 7mm abgerundet (vgl. Abb.
 	\caption[Grundzeichnung als Basis des Modells]{Grundzeichnung als Basis des Modells}
 	\label{fig:design-case-base}
 \end{figure}\par
-\noindent Die so entstandene Zeichnung (vgl. Abb. \ref{fig:design-case-03}: \nameref{fig:design-case-03}) haben wir dann in eine weitere Datei kopiert, die so als Grundlage für die beiden geteilten Seitenteile dienen. 
-Von hier aus haben wir die beiden Wandteile mehr oder weniger unabhängig voneinander entworfen.\par
+\noindent Die so entstandene Zeichnung (vgl. Abb. \ref{fig:design-case-03}: \nameref{fig:design-case-03}) haben wir dann in eine weitere Datei kopiert, die als Grundlage für die beide Seitenteile dient. 
+Ausgehend von dieser Zeichnung aus haben wir die beiden Wandteile unabhängig voneinander entworfen.\par
 \paragraph{Linkes Wandteil}
-Beim linken Wandteil haben wir den entsprechende Teil der Zeichnung um 2 mm entlang der Z-Achse extrudiert (vgl. Abb. \ref{fig:design-left-01}: \nameref{fig:design-left-01}). 
-Auf der erhöhten Seite haben wir eine weitere Zeichnung gelegt, die die Bleche an der Rückseite des Bildschirms überdecken soll. (vgl. Abb. \ref{fig:design-left-02}: \nameref{fig:design-left-02}), die wir dann wie zuvor um 3 mm entlang der Z-Achse extrudiert haben (vgl. Abb. \ref{fig:design-left-03}: \nameref{fig:design-left-03}). 
-Diese sollte dem Gehäuse genug Auflagefläche an dem Bildschirm bieten, um die Verklebung so stark wie möglich zu machen. 
-Auf die nun entstandene erhöhte Seite haben wir eine Zeichnung der ,,tatsächlichen'' Wandstärke von 3 mm erstellt (vgl. Abb. \ref{fig:design-left-04}: \nameref{fig:design-left-04}). 
-Diese haben wir dann um 6 mm entlang der Z-Achse extrudiert, um für die Verbinder genügend Platz vor dem klobigen Blechbereich im unteren Teil des Bildschirms zu bieten (vgl. Abb.  \ref{fig:design-left-05}: \nameref{fig:design-left-05}). 
-Auf die nun obenliegende Seite haben wir die Zeichnung der Verbindungsstücke gelegt (vgl. Abbildung \ref{fig:design-left-06}: \nameref{fig:design-left-06}) und um 19 mm entlang der Z-Achse extrudiert (vgl. Abb. \ref{fig:design-left-07}: \nameref{fig:design-left-07}) und im Kreismittelpunkt der Zeichnungen eine Bohrung für M3-Gewinde gesetzt (vgl. Abb. \ref{fig:design-left-08}: \nameref{fig:design-left-08}). 
-Auf die nun  entstandene Oberfläche haben wir die Zeichnung für die Verbindung mit dem Deckel gesetzt (vgl. Abb. \ref{fig:design-left-09}: \nameref{fig:design-left-09}), um 25 mm entlang der Z-Achse extrudiert (vgl. Abb. \ref{fig:design-left-10}: \nameref{fig:design-left-10}) und ebenfalls mit Bohrungen für M3-Gewinde versehen (vgl. Abb. \ref{fig:design-left-11}: \nameref{fig:design-left-11}).\par
+Beim linken Wandteil haben wir die Zeichnung um 2 mm entlang der Z-Achse nach oben extrudiert (vgl. Abb. \ref{fig:design-left-01}: \nameref{fig:design-left-01}), um eine Auflagefläche zu erzeugen. 
+Auf der Oberseite haben wir eine weitere Zeichnung gelegt, um die Kontaktfläche für die Verklebung mit dem Bildschirm zu erweitern (vgl. Abb. \ref{fig:design-left-02}: \nameref{fig:design-left-02}), die wir dann wie zuvor um 3 mm entlang der Z-Achse extrudiert haben (vgl. Abb. \ref{fig:design-left-03}: \nameref{fig:design-left-03}) um auf die gleiche Höhe des Blechs auf der Rückseite des Bildschirms zu gelangen. \\
+\noindent Diese sollte dem Gehäuse genug Auflagefläche auf dem Bildschirm bieten, um die Verklebung so stabil wie möglich zu machen. 
+Auf die nun entstandene Erhöhung haben wir eine Zeichnung des Rahmens von 3 mm Stärke erstellt (vgl. Abb. \ref{fig:design-left-04}: \nameref{fig:design-left-04}), die wir dann um 6 mm entlang der Z-Achse extrudiert haben, um für die Verbinder der Schrauben genügend Platz vor dem herausstehenden Blechbereich im unteren Teil des Bildschirms zu bieten (vgl. Abb.  \ref{fig:design-left-05}: \nameref{fig:design-left-05}). \\
+\noindent Auf die nun obenliegende Seite des Gehäuses haben wir die Zeichnung der Verbindungsstücke gelegt (vgl. Abbildung \ref{fig:design-left-06}: \nameref{fig:design-left-06}), um 19 mm entlang der Z-Achse extrudiert (vgl. Abb. \ref{fig:design-left-07}: \nameref{fig:design-left-07}). 
+Im Kreismittelpunkt der Zeichnungen eine Bohrung für M3-Gewinde gesetzt (vgl. Abb. \ref{fig:design-left-08}: \nameref{fig:design-left-08}). 
+Auf die Oberseite haben wir die Zeichnung für die Verbindung von Deckel und dem Seitenteil gesetzt (vgl. Abb. \ref{fig:design-left-09}: \nameref{fig:design-left-09}) und um 25 mm entlang der Z-Achse extrudiert (vgl. Abb. \ref{fig:design-left-10}: \nameref{fig:design-left-10}), damit der von uns verwendete 40 mm Lüfter im Gehäuse Platz findet.
+Dies haben wir ebenfalls mit Bohrungen für M3-Gewinde versehen (vgl. Abb. \ref{fig:design-left-11}: \nameref{fig:design-left-11}).\par
 \begin{figure}[H]
 	\begin{subfigure}[t]{.3\linewidth}
 		\includegraphics[width=\linewidth]{img/konstruktion_gehaeuse_links_001.png}
@@ -98,12 +98,13 @@ Auf die nun  entstandene Oberfläche haben wir die Zeichnung für die Verbindung
 \end{figure}\par
 \newpage
 \paragraph{Rechtes Wandteil}
-Beim rechten Teil des Gehäuses ist die Vorgehensweise weitestgehend die selbe wie beim linken Gehäuseteil (vgl. Abb. \ref{fig:design-right-01}: \nameref{fig:design-right-01}- Abb. \ref{fig:design-right-08}: \nameref{fig:design-right-08} mit Abb. \ref{fig:design-left}: \nameref{fig:design-left}). 
-Der Unterschied zwischen beiden Teilen, abgesehen von den Verbindungsstücken und der Aussparung für das Flachkabel des Bildschirms, sind die Aussparungen für Lüfter, Antenne, Netzwerkanschluss und Strombuchse. 
-Für den Lüfter und die Antenne haben wir auf der ,,Oberseite'' des Gehäuses eine Zeichnung aufgelegt (vgl. Abb. \ref{fig:design-right-09}: \nameref{fig:design-right-09}), die  wir dann ins Negative extrudiert haben, was die gezeichnete Fläche aus dem Körper löscht (vgl. Abb. \ref{fig:design-right-10}: \nameref{fig:design-right-10}). 
-Auf ähnliche Weise haben wir die Aussparung für eine RJ45-Verlängerung und eine 5,5 mm DC-Buchse gesetzt. Zuerst haben wir die Zeichnung für die Aussparung auf die Seite gelegt (vgl. Abb.  \ref{fig:design-right-11}: \nameref{fig:design-right-11}) und diese dann ebenfalls ins Negative extrudiert (vgl. Abb. \ref{fig:design-right-12}: \nameref{fig:design-right-12}). 
-Um für die Befestigung der 5,5 mm DC-Buchse eine Unterlage im Gehäuse zu haben, haben wir der Grundriss eines Rechtecks auf die Innenseite des Gehäusebodens gelegt (vgl. Abb.  \ref{fig:design-right-13}: \nameref{fig:design-right-13}) und extrudiert (vgl. Abb. \ref{fig:design-right-14}: \nameref{fig:design-right-14}), um die Möglichkeit zu haben, die Buchse im Gehäuse zu verkleben. 
-Damit die Buchse nicht zu tief im Gehäuse steckt, haben wir eine Zeichnung eines konzentrischen Kreises auf die bereits vorhandene Aussparung auf die Innenseite gelegt  (vgl. Abb.  \ref{fig:design-right-15}: \nameref{fig:design-right-15}) und dann um einige Millimeter ins Negative extrudiert, um die Aussparung zu generieren (vgl. Abb. \ref{fig:design-right}: \nameref{fig:design-right}).\par
+Beim rechten Teil des Gehäuses ist die Vorgehensweise weitestgehend die selbe wie beim linken Gehäuseteil (vgl. Abb. \ref{fig:design-right-01}: \nameref{fig:design-right-01} - Abb. \ref{fig:design-right-08}: \nameref{fig:design-right-08} mit Abb. \ref{fig:design-left}: \nameref{fig:design-left}). 
+Der Unterschied zwischen beiden Teilen, abgesehen von den Verbindungsstücken und der Aussparung für das Flachkabel des Bildschirms, sind zusätzlich die Aussparungen für Lüfter, Antenne, Netzwerkanschluss und Strombuchse. \\
+\noindent Für den Lüfter und die Antenne haben wir auf dem oberen Teil des Gehäuses eine Zeichnung aufgelegt (vgl. Abb. \ref{fig:design-right-09}: \nameref{fig:design-right-09}), die  wir dann ins Negative extrudiert haben, um die gezeichnete Fläche aus dem Gehäuse zu löschen (vgl. Abb. \ref{fig:design-right-10}: \nameref{fig:design-right-10}). 
+Mit der selben Vorgehensweise haben wir die Aussparung für eine RJ45-Verlängerung und eine 5,5 mm DC-Buchse gesetzt. 
+Zuerst haben wir die Zeichnung für die Aussparung auf die Seite gelegt (vgl. Abb.  \ref{fig:design-right-11}: \nameref{fig:design-right-11}) und diese dann ebenfalls ins Negative extrudiert (vgl. Abb. \ref{fig:design-right-12}: \nameref{fig:design-right-12}). \\
+\noindent Um für die Befestigung der 5,5 mm DC-Buchse eine Unterlage im Gehäuse zu haben, haben wir der Grundriss eines Rechtecks auf die Innenseite des Gehäusebodens gelegt (vgl. Abb.  \ref{fig:design-right-13}: \nameref{fig:design-right-13}) und extrudiert (vgl. Abb. \ref{fig:design-right-14}: \nameref{fig:design-right-14}), um die Möglichkeit zu haben, die Buchse mit dem Gehäuse zu verkleben. 
+Damit die Buchse nicht zu tief im Gehäuse steckt, haben wir eine Zeichnung eines konzentrischen Kreises auf die bereits vorhandene Aussparung auf die Innenseite gelegt  (vgl. Abb.  \ref{fig:design-right-15}: \nameref{fig:design-right-15}) und dann um einige Millimeter ins Negative verkürzt, um die Aussparung zu generieren (vgl. Abb. \ref{fig:design-right}: \nameref{fig:design-right}).\par
 \begin{figure}[H]
 	\begin{subfigure}[t]{.3\linewidth}
 		\includegraphics[width=\linewidth]{img/konstruktion_gehaeuse_rechts_001.png}
@@ -188,19 +189,19 @@ Damit die Buchse nicht zu tief im Gehäuse steckt, haben wir eine Zeichnung eine
 	\caption[Entwurf des rechten Wandteils]{Entwurf des rechten Wandteils}
 	\label{fig:design-right}
 \end{figure}\par
-\paragraph{Gehäuserückwand}
+\paragraph{Gehäuserückwand}\par
 Das Design der Gehäuserückwand basiert nur rudimentär auf der in Abb. \ref{fig:design-case-base}: \nameref{fig:design-case-base} erstellten Zeichnung. 
-Die Außenmaße Stimmen zwar überein, die Zeichnung für die Auflage auf den Seitenwänden haben wir aber neu erstellt. Zusätzlich haben wir eine Diagonale zur punktsymmetrischen Trennung der Teile eingefügt (vgl. Abb. \ref{fig:design-back-01}: \nameref{fig:design-back-01}), welche die Zeit für die Konstruktion von zwei unterschiedlichen Teilen für die Rückseite reduzieren soll. 
-Die Zeichnung haben wir dann entsprechend extrudiert (vgl. Abb. \ref{fig:design-back-02}: \nameref{fig:design-back-02}). Um die Teile nach dem Druck besser verbinden zu können, haben wir ein Vorsprung auf der kurzen Seite des Bauteils extrudiert (vgl. Abb. \ref{fig:design-back-03}: \nameref{fig:design-back-03}). 
-Um beim Druck Material zu sparen, haben wir ein weiter Teil der inneren Zeichnung ins Negative extrudiert, um den Bereich freizustellen (vgl. Abb. \ref{fig:design-back-04}: \nameref{fig:design-back-04}). 
-Für eventuelle Toleranzen zwischen den beiden Teilen haben wir auf dem Vorsprung die Aussparung für die unterliegende Schraubendurchführung erhöht (vgl. Abb. \ref{fig:design-back-05}: \nameref{fig:design-back-05}). 
-Zusätzlich haben wir den Vorsprung von unten mit einer Fase versehen, um den Materialverbrauch für das Teil weiter zu reduzieren (vgl. Abb. \ref{fig:design-back-06}: \nameref{fig:design-back-06}). 
-Des weiteren haben wir die obere Kante (vgl. Abb. \ref{fig:design-back-07}: \nameref{fig:design-back-07}) und die Innenseite (vgl. Abb. \ref{fig:design-back-08}: \nameref{fig:design-back-08}) mit einer Fase versehen. 
-Eine ähnliche Fase haben wir auch an dem Vorsprung angebracht (vgl. Abbildung \ref{fig:design-back-09}: \nameref{fig:design-back-09}). 
-Um die Bohrung am die richtige Stelle zu setzen, haben wir eine Hilfszeichnung auf die Außenfläche gesetzt (vgl. Abb. \ref{fig:design-back-10}: \nameref{fig:design-back-10}). 
-Anschließend haben wir drei M3-Bohrungen für Senkkopfschrauben gesetzt (vgl. Abb. \ref{fig:design-back-11}: \nameref{fig:design-back-11}). 
-Um das Gehäuse an der Wand anbringen zu können, haben wir eine Zeichnung auf die Oberseite des Gehäuses gelegt (vgl. Abb. \ref{fig:design-back-12}: \nameref{fig:design-back-12}) und dann ins Negativ extrudiert (vgl. Abb. \ref{fig:design-back-13}: \nameref{fig:design-back-13}). 
-Um bei der Anbringung nicht an einen bestimmten Typ Schrauben gebunden zu sein, haben wir eine kleine Fase an den engen Teil der Aufhängungen gelegt (vgl. Abb. \ref{fig:design-back-14}: \nameref{fig:design-back-14}). 
+Die Außenmaße stimmen zwar überein, die Zeichnung für die Auflage auf den Seitenwänden haben wir aber neu erstellt. 
+Zusätzlich haben wir eine Diagonale zur punktsymmetrischen Trennung der Teile eingefügt (vgl. Abb. \ref{fig:design-back-01}: \nameref{fig:design-back-01}), welche den Zeitaufwand für den Druck von zwei unterschiedlichen Teilen für die Rückseite reduzieren soll. \\
+\noindent Nachdem wir die  Zeichnung extrudiert haben (vgl. Abb. \ref{fig:design-back-02}: \nameref{fig:design-back-02}), haben wir noch einen Vorsprung auf der kurzen Seite des Bauteils extrudiert (vgl. Abb. \ref{fig:design-back-03}: \nameref{fig:design-back-03}), um die beiden Rückwandteile besser verbinden zu können. 
+Anschließend haben wir ein weiter Teil der inneren Zeichnung ins Negative extrudiert, um diesen Bereich freizustellen (vgl. Abb. \ref{fig:design-back-04}: \nameref{fig:design-back-04}) und um beim Druck der Teile Material zu sparen. \\
+\noindent Damit für eventuelle Toleranzen zwischen den beiden Teilen Platz ist, haben wir auf dem Vorsprung die Aussparung für die darunterliegende Schraubendurchführung erhöht (vgl. Abb. \ref{fig:design-back-05}: \nameref{fig:design-back-05}) und den Vorsprung von unten mit einer Fase versehen, was den Materialverbrauch für das Teil weiter reduziert (vgl. Abb. \ref{fig:design-back-06}: \nameref{fig:design-back-06}). 
+Zudem haben wir die obere Kante (vgl. Abb. \ref{fig:design-back-07}: \nameref{fig:design-back-07}), die Innenseite (vgl. Abb. \ref{fig:design-back-08}: \nameref{fig:design-back-08}) und auch den Vorsprung (vgl. Abbildung \ref{fig:design-back-09}: \nameref{fig:design-back-09}) mit einer Fase versehen. \\
+\noindent Um die Bohrungen an die richtige Stellen setzen zu können, haben wir eine Hilfszeichnung auf die Außenfläche, also die Außenseite der Rückwand, aufgelegt (vgl. Abb. \ref{fig:design-back-10}: \nameref{fig:design-back-10}). 
+Dort haben wir dann drei M3-Bohrungen für Senkkopfschrauben gesetzt (vgl. Abb. \ref{fig:design-back-11}: \nameref{fig:design-back-11}). \\
+\noindent Für die Aufhängungen auf der Rückseite des Gehäuses haben wir eine weitere Zeichnung aufgelegt (vgl. Abb. \ref{fig:design-back-12}: \nameref{fig:design-back-12}) und dann ins Negativ extrudiert (vgl. Abb. \ref{fig:design-back-13}: \nameref{fig:design-back-13}).
+So kann das Gehäuse mit zwei Schrauben an der Wand angebracht werden.  
+Um beim Aufhängen nicht an einen bestimmten Typ Schrauben gebunden zu sein, haben wir eine kleine Fase an den engeren Teil der Aufhängungen gelegt (vgl. Abb. \ref{fig:design-back-14}: \nameref{fig:design-back-14}). 
 \begin{figure}[H]
 	\begin{subfigure}[t]{.3\linewidth}
 		\includegraphics[width=\linewidth]{img/konstruktion_gehaeuse_hinten_001.png}
