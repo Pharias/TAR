@@ -6,7 +6,7 @@ Enthält die Projektdateien:
   -  Schaltplan (KiCAD)
   -  Programmcode (C/C++)
 
-![Bild der SHZ](doc/img/prototype_front.png "Bild der SHZ")
+![Bild der SHZ](doc/img/fertiges_geraet.png "Bild der SHZ")
 
 ## Image für Raspberry Pi
 Images für die einfache Einrichtung (Basierend auf Raspberry Pi OS):
